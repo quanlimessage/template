@@ -1,0 +1,297 @@
+@charset "utf-8";
+/*====================================================================================
+■01.Title_pages
+■02.Content PAGE
+====================================================================================*/
+/*====================================================================================
+■01.Title_pages
+====================================================================================*/
+.tt_page_wrap {background: url(/public/common_img/gray_bg.png) repeat-x left top; height: 247px; position: relative; z-index: 1;}
+.tt_page_wrap .tt_page {background: url(/public/common_img/tt_page_bg.png) no-repeat center top; height: 247px; position: relative; z-index: 2;}
+.tt_page_wrap .tt_page h2 {text-align: center;font-size: 36px;color: #000;font-family: 'robotoregular', sans-serif;padding-top: 86px;text-shadow: 2px 3px 3px #ccc;}
+
+.banner_contact {background: url(/public/common_img/banner_bg.png) no-repeat center top; width: 1000px; height: 354px; position: relative; margin: 0px auto;}
+.banner_contact p {position: absolute; top: 209px; left: 396px;}
+.btn_full {display: none;}
+/*====================================================================================
+■02.Liên hệ
+====================================================================================*/
+.contact_sec p {margin-bottom: 20px;}
+.wrap_form {padding: 0px 120px;}
+.contact_sec table { width: 100%; font-size: 14px; font-family: 'robotoregular', sans-serif;}
+.contact_sec table th {padding: 15px 20px;width: 211px;background: #f9f9f9;text-align: left;vertical-align: top;border:1px solid #e8e8e8;}
+.contact_sec table td {padding: 15px 30px 15px 20px;border:1px solid #e8e8e8;}
+input {padding: 2px 5px;}
+textarea {padding: 5px 5px; font-family: 'Open Sans', sans-serif;}
+.w100 {width: 100%; height: 30px;}
+.w100-area {width: 100%;}
+.h30 {height: 35px;}
+.h40 {height: 30px;}
+.btn_form {width: 235px;height: 45px;background: #ff9000;color: #fff;font-weight: bold;border: none;transition: all linear 0.3s;font-size: 18px;cursor: pointer;font-family: 'robotoregular',sans-serif;margin-left: 279px;}
+.btn_form:hover {background: #3cb4b4;}
+/*====================================================================================
+■03.Giới thiệu
+====================================================================================*/
+.about_sec {margin-bottom: 50px;}
+.about_sec h3 {text-align: center; margin-bottom: 25px;}
+.about_sec .clearfix > img {float: left; margin-right: 40px; border: 1px solid #3cb4b4; padding: 50px; transition: all linear 0.3s;}
+.about_sec .clearfix p {margin-bottom: 10px; line-height: 22px;}
+.about_sec.bg1 {background: url(/public/gioithieu/images/bg1.png) no-repeat center top; background-size: cover; min-height: 435px; padding-top: 65px;}
+.about_sec.bg1 h3 {margin-bottom: 15px;font-size: 30px;font-weight: bold;border-bottom: 1px solid #fff;padding-bottom: 9px;position: relative;z-index: 4;color: #fff;min-width: 143px;display: inline-block;text-align: left;}
+.about_sec.bg1 h3:after {content: '';position: absolute;right: -11px;bottom: -7px;width: 12px;height: 12px;background: url(/public/gioithieu/images/icon.png) no-repeat center top;}
+.about_sec.bg1 p {margin-bottom: 45px; color: #fff; width: 530px;}
+.about_sec ul {width: 510px;margin: 35px auto 0;}
+.about_sec ul li {background: url(/public/gioithieu/images/icon2.png) no-repeat left center; padding-left: 32px; margin-bottom: 10px;}
+/*====================================================================================
+■04.Căn hộ
+====================================================================================*/
+
+/*====================================================================================
+■05.Biệt thự
+====================================================================================*/
+
+/*====================================================================================
+■06.Đất nền
+====================================================================================*/
+
+/*====================================================================================
+■07.Nhà phố
+====================================================================================*/
+
+/*====================================================================================
+■08.Product common
+====================================================================================*/
+.product {padding: 50px 0px;}
+.product .product_box {border:1px solid;}
+.product h3 {text-align: center;background: url(/public/common_img/tt_bg.png) no-repeat center top;width: 423px;height: 71px;margin: -78px auto 40px auto;color: #fff;font-size: 22px;font-family: 'robotoregular', sans-serif;line-height: 55px;}
+.product .wrap_product .product_box:hover {border:1px solid #ff5a00;}
+.product .wrap_product .product_box:hover .product_img img {transform: scale(1.07); transition: all linear 0.3s;}
+.product .wrap_product .product_box {width: 298px;float: left;margin-right: 50px;margin-bottom: 50px;position: relative;background: #fff;border:1px solid #d4d4d4;transition: border linear 0.4s;}
+
+.product .wrap_product {margin-right: -50px;}
+.product .wrap_product .product_box:after {content: ''; position: absolute; width: 299px; height: 25px; bottom: -25px; left: 1px; background: url(/public/images/shadow.png) no-repeat center top;}
+.product .wrap_product .product_box .product_img {text-align: center; margin-bottom: 10px; overflow: hidden;}
+.product .wrap_product .product_box .product_img img {max-width: 100%; transition: all linear 0.4s;}
+.product .wrap_product .product_box h4 {text-align: center; color: #ff5a00; font-size: 20px; font-family: 'robotoregular', sans-serif; margin-bottom: 10px;}
+.product .wrap_product .product_box .product_text {padding: 0px 15px 15px 15px;text-align: center;}
+
+.product_detail h3 {font-size: 30px;text-align: center; font-family: 'robotoregular', sans-serif;color: #ff5a00;line-height: 40px; margin-bottom: 30px;}
+.product_detail h3 span {font-size: 20px; font-weight: 100;}
+.product_detail h4 {color: #3cb4b4; font-size: 24px; margin-bottom: 20px; font-weight: 400;}
+.product_detail .detail_logo {text-align: center; margin-bottom: 20px;}
+.product_detail .detail_logo img {width: 191px; height: auto;}
+.product_detail .detail_end {font-size: 16px; color: #ff5a00; font-style: italic; font-weight: bold; text-align: center; margin-bottom: 0px;}
+.product_detail p {margin-bottom: 20px;}
+.product_detail .detail_img {text-align: center; margin-bottom: 25px;}
+.product_detail .detail_img img {margin-bottom: 10px; max-height: 1000px;}
+.product_detail .detail_img span {font-size: 12px; font-weight: 100;}
+.product_detail .detail_btn a {display: block; width: 250px; height: 50px; line-height: 50px; color: #fff; background: #ff5a00; text-align: center; margin: 30px auto; text-decoration: none; font-size: 16px; font-weight: 100; transition: all linear 0.3s;}
+.product_detail .detail_btn a:hover {background: #3cb4b4;}
+.product_detail .detail_list {margin-bottom: 30px;}
+.product_detail .detail_list li {background: url(/public/gioithieu/images/icon2.png) no-repeat left center; padding-left: 32px; margin-bottom: 10px; font-size: 14px;}
+
+.product_detail .detail_option {width: 100%; margin-bottom: 30px;}
+.product_detail .detail_option thead th {background: #dbc996; padding: 30px 20px; border: 1px solid #bfac78; vertical-align: middle; width: 180px; transition: all linear 0.15s; font-weight: 700; text-align: center; vertical-align: top; font-size: 22px;}
+.product_detail .detail_option thead tr:hover {background: #e2e0cb;}
+.product_detail .detail_option thead tr:hover th {background: #e2e0cb;}
+
+.product_detail .detail_option tbody th {background: #dbc996;padding: 12px 20px;border: 1px solid #bfac78;vertical-align: middle;width: 245px;transition: all linear 0.15s;font-weight: normal;text-align: left;vertical-align: top;}
+.product_detail .detail_option tbody td {padding: 12px 20px; border: 1px solid #bfac78; transition: all linear 0.3s;  text-align: left;}
+.product_detail .detail_option tbody td p {margin-bottom: 20px;}
+.product_detail .detail_option tbody tr:hover {background: #e2e0cb;}
+.product_detail .detail_option tbody tr:hover th {background: #e2e0cb;}
+
+.product_detail .detail_navigation {margin-top: 60px;}
+.product_detail .detail_navigation li {float: left;}
+.product_detail .detail_navigation li a {text-decoration: none; color: #fff; font-weight: 100; display: block; text-align: center; background: #333; padding: 5px 20px; width: 100px; transition: all linear 0.3s;}
+.product_detail .detail_navigation li a:hover {background: #ff5a00;}
+.product_detail .detail_navigation .next {float: right;}
+.product_detail .detail_navigation .back {margin-left: 290px;}
+
+@media all and (max-width: 1000px) {
+	* { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box }
+	.product {padding: 0;}
+	.container {position: relative;width: 100%;margin: 0 auto;}
+
+	.in_content_page {width: 100%;}
+	.in_content_page .product h3 {text-align: center;background: url(/public/images/tt_bg.png) no-repeat center top;width: 100%;height: 71px;margin: 0 0 4% 0;color: #fff;font-size: 20px;font-family: 'robotoregular', sans-serif;line-height: 55px;}
+	.in_content_page {margin-bottom: 0%;padding: 6% 0 0 0;}
+	.in_content_page .wrap_product .product_box:hover {border:1px solid #ff5a00;}
+	.in_content_page .wrap_product .product_box:hover .product_img img {transform: scale(1.07); transition: all linear 0.3s;}
+	.in_content_page .wrap_product .product_box {width: 47%;float: left;margin-right: 6%;margin-bottom: 8%;position: relative;background: #fff;border:1px solid #eee;transition: border linear 0.4s;}
+
+	.product .wrap_product {margin-right: 0;width: 100%;padding: 0 3%;}
+	.product .wrap_product .product_box:after {content: '';position: absolute;width: 100%;height: 8%;bottom: -8%;left: 0;background: url(/public/images/shadow.png) no-repeat center top;background-size: 100% auto;}
+	.product .wrap_product a:nth-child(2n) .product_box {margin-right: 0;}
+	.product .wrap_product .product_box .product_img {text-align: center;margin-bottom: 2%;overflow: hidden;}
+	.product .wrap_product .product_box .product_img img {max-width: 100%; transition: all linear 0.4s;}
+	.product .wrap_product .product_box h4 {text-align: center;color: #ff5a00;font-size: 20px;font-family: 'robotoregular', sans-serif;margin-bottom: 2%;font-size: 17px;}
+	.product .wrap_product .product_box .product_text {padding: 0 5% 3% 5%;font-size: 13px;}
+
+	.banner_contact {background: none;width: 100%;height: auto;}
+	.banner_contact p {position: absolute; top: 209px; left: 396px;}
+	.banner_contact .btn {display: none;}
+	.banner_contact .btn_full {display: block;position: relative;top: 0;left: 0;}
+
+	.tt_page_wrap {background: url(/public/common_img/gray_bg.png) no-repeat left top;height: auto;margin-bottom: 2%;position: relative;background-size: cover;z-index: 1;}
+	.tt_page_wrap .tt_page {background: none;height: auto;position: relative;background-size: 170% auto;%: 2}
+	.tt_page_wrap .tt_page h2 {text-align: center;font-size: 36px;color: #000;font-family: 'robotoregular', sans-serif;padding: 15% 0;text-shadow: 2px 3px 3px #ccc;}
+
+	.product_detail .container {padding: 0 3%;}
+	.product_detail p {margin-bottom: 3%;}
+
+	.product_detail .detail_list li {background: url(/public/gioithieu/images/icon2.png) no-repeat left 5px;}
+
+	.product_detail .detail_navigation {margin-top: 5%;margin-bottom: 5%;}
+	.product_detail .detail_navigation li a { padding: 5%; width: 140px;}
+	.product_detail .detail_navigation .next {float: right;}
+	.product_detail .detail_navigation .back {margin-left: 160px;}
+
+
+	.about_sec {margin-bottom: 4%;}
+	.about_sec .container {padding: 0 3%;}
+	input {padding: 3% 2%;}
+
+
+	.about_sec h3 {text-align: center;margin-bottom: 4%;}
+	.about_sec .clearfix > img {float: left;width: 32%;margin-right: 4%;border: 1px solid #3cb4b4;padding: 5%;transition: all linear 0.3s;}
+	.about_sec .clearfix p {margin-bottom: 2%;line-height: 22px;float: right;width: 64%;font-size: 14px;}
+
+	.about_sec.bg1 {background: url(/public/gioithieu/images/bg1.png) no-repeat center top; background-size:cover; height: auto; padding:10% 0; min-height: 0;}
+	.about_sec.bg1 p {width: 100%;margin-bottom: 10%;}
+	.about_sec.bg1 p:last-child {margin-bottom: 0;}
+	.about_sec.bg1 h3 {padding-bottom: 1%;padding-left: 0;width: auto;min-width: 0;margin-bottom: 2%;}
+
+	.about_sec ul {width: 100%;}
+
+	.contact_sec .container {padding: 0 3%;}
+	.contact_sec p {margin-bottom: 5%;}
+	.wrap_form {padding:0;}
+	.contact_sec table {width: 100%;}
+	.contact_sec table th {width: 25%; padding: 2%;}
+	.contact_sec table td {width: 85%; padding: 2%;}
+	.btn_form {width: 50%;margin:0 auto;line-height: 45px;height: auto;padding: 0;}
+	#formEnd {text-align: center;}
+}
+
+@media all and (max-width: 767px) {
+	.breadcrumb  {display: none;}
+	.product .wrap_product .product_box {width: 100%;float: none;margin-right: 0;margin-bottom: 10%;position: relative;background: #fff;border:1px solid #eee;transition: border linear 0.4s;}
+	.product .wrap_product a {text-decoration: none;}
+	.h_menu {position: absolute;width: 100%;top: 100%;z-index: 10;}
+	.tt_page_wrap .tt_page h2 {font-size: 25px;}
+
+	.product_detail .detail_option {margin-bottom: 3%;}
+	.product_detail .detail_option thead th {width: 100%; padding: 4%; font-size: 20px;}
+	.product_detail .detail_option tbody th {padding: 2%; width: 35%;}
+	.product_detail .detail_option tbody td {padding: 2%; width: 75%;}
+
+	.product_detail .detail_list li {background-size: 2% auto;padding-left: 6%;}
+	.product_detail p {margin-bottom: 2%;}
+	.product_detail h4 { margin-bottom: 2%; line-height: 30px;}
+
+	.product_detail .detail_navigation {margin-top: 5%;margin-bottom: 5%; width: 100%;}
+	.product_detail .detail_navigation li {float: none; margin-bottom: 3%;}
+	.product_detail .detail_navigation li a {padding: 2%;width: 50%;margin: 0 auto;}
+	.product_detail .detail_navigation .next {float: none;}
+	.product_detail .detail_navigation .back {margin-left: 0;}
+
+	.product_detail .detail_btn a { width: 80%; padding: 2%; height: auto; line-height: inherit; margin: 0 auto;}
+
+	.about_sec h3 {text-align: center;margin-bottom: 4%;padding: 0 3%;}
+	.about_sec .clearfix > img {float: left;width: 32%;margin-right: 4%;border: 1px solid #3cb4b4;padding: 5%;transition: all linear 0.3s;}
+	.about_sec .clearfix p {margin-bottom: 3%;line-height: 22px;float: none;width: 100%;font-size: 14px;}
+
+	.about_sec.bg1 p {font-size: 14px;}
+	.about_sec.bg1 h3 {font-size: 24px;}
+	.about_sec ul li {width: 100%; margin-bottom: 2%; background: url(/public/gioithieu/images/icon2.png) no-repeat left 5px; background-size: 2% auto;padding-left: 6%;}
+
+
+}
+
+@media all and (max-width: 480px) {
+	.h_menu {position: absolute;width: 100%;top: 100%;z-index: 10;}
+	.tt_page_wrap .tt_page h2 {font-size: 20px;}
+	.product_detail h3 { font-size: 23px; line-height: 30px; margin-bottom: 3%;}
+	.product_detail h3 span {font-size: 16px;}
+
+	.product_detail .detail_option {}
+	.product_detail .detail_option thead th {}
+	.product_detail .detail_option tbody th {}
+	.product_detail .detail_option tbody td {}
+
+	.product_detail .detail_list li {background-size: 4% auto;}
+	.product_detail h4 { font-size: 20px;}
+	.product_detail .detail_btn a {font-size: 14px;}
+	.product_detail .detail_navigation li a {font-size: 14px;}
+
+	.about_sec.bg1 p {font-size: 14px;}
+	.about_sec.bg1 h3 {font-size: 18px;}
+	.about_sec ul li {background-size: 4% auto;}
+
+	.contact_sec p {margin-bottom: 5%;}
+	.wrap_form {padding:0;}
+	.contact_sec table {width: 100%;}
+	.contact_sec table th {width: 25%; padding: 2%;}
+	.contact_sec table td {width: 85%; padding: 2%;}
+	.btn_form {font-size: 16px;}
+
+}
+
+@media all and (max-width: 414px) {
+	.h_menu {top: 100%;}
+	.in_content_page .product h3 {font-size: 18px;background-size: 100% auto;height: auto;padding-bottom: 5%;}
+	.product_detail .detail_option {}
+	.product_detail .detail_option thead th {font-size: 18px;}
+	.product_detail .detail_option tbody th {}
+	.product_detail .detail_option tbody td {}
+
+	.product_detail h3 {font-size: 20px;}
+	.product_detail h3 span {font-size: 14px;}
+
+	.product_detail .detail_list {margin-bottom: 2%;}
+	.product_detail .detail_list li {margin-bottom: 2%;padding-left: 7%;}
+	.product_detail h4 { font-size: 18px; line-height: 24px;}
+
+	.product_detail .detail_btn a {font-size: 13px;}
+	.product_detail .detail_navigation li a {font-size: 13px;}
+}
+
+@media all and (max-width: 360px) {
+ 	.h_menu {top: 100%;}
+ 	.in_content_page .product  h3 {font-size: 16px;line-height: 40px;}
+ 	.product_detail .detail_option {}
+	.product_detail .detail_option thead th {}
+	.product_detail .detail_option tbody th {font-size: 13px;}
+	.product_detail .detail_option tbody td {font-size: 13px;}
+
+
+
+	.product_detail h3 {}
+	.product_detail .detail_list {margin-bottom: 30px;}
+	.product_detail .detail_list li {font-size: 13px;background: url(/public/gioithieu/images/icon2.png) no-repeat left 7px;background-size: 4% auto;}
+	.product_detail p {font-size: 13px;}
+	.product_detail h4 { font-size: 16px; line-height: 22px;}
+
+	.about_sec.bg1 p {font-size: 13px;}
+	.about_sec.bg1 h3 {font-size: 16px;}
+	.about_sec .clearfix p {font-size: 13px;}
+	.about_sec ul li {width: 100%; font-size: 13px;}
+
+ }
+
+@media all and (max-width: 320px) {
+ 	.h_menu {top: 100%;}
+ 	.product_detail .detail_option {}
+	.product_detail .detail_option thead th {font-size: 16px;}
+	.product_detail .detail_option tbody th {}
+	.product_detail .detail_option tbody td {}
+
+	.product_detail h3 {font-size: 18px;}
+	.product_detail h3 span {font-size: 12px;}
+
+	.contact_sec p {font-size: 13px;}
+	.contact_sec table th {font-size: 13px;}
+	.contact_sec table td {font-size: 13px;}
+	.btn_form {font-size: 14px;}
+}

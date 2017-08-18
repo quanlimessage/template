@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="format-detection" content="telephone=no">
+<title>INSTITUTE for TILE and RENEWAL タイル建物研究所</title>
+<!-- CSS -->
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/content.css" rel="stylesheet" type="text/css">
+<!-- JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!-- jQueryの読み込み -->
+<script>window.jQuery || document.write('<script src="../js/jquery-1.11.0.min.js"><\/script>')</script><!-- 上記CDNダウン時のフォールバック -->
+</head>
+<body id="home">
+<div id="wrapper"><!-- wrapper -->
+  <header id="header">
+  	<div class="container">
+      <h1>外壁タイルの劣化対策から建物価値の保全まで、タイル建物研究所にご相談ください。</h1>
+      <div class="clearfix">
+        <div class="h_logo">
+          <a href="../"><img src="../common_img/h_logo.png" alt="INSTITUTE for TILE and RENEWAL タイル建物研究所"></a>
+        </div>
+        <ul class="h_nav">
+          <li><a href="../news/">news</a></li>
+          <li><a href="../company/">company</a></li>
+        </ul>
+        <ul class="h_info clearfix">
+          <li class="tel"><small>Tel :</small> 06-6348-2555</li>
+          <li><a href="../contact/"><img src="../common_img/ico_mail.png" alt="Contact"></a></li>
+        </ul>
+      </div>
+    </div>
+    <nav id="gnav"> 
+        <ul> 
+            <li><a href="../about/">タイル建物研究所とは</a></li> 
+            <li><a href="../works/">業務案内</a></li> 
+            <li><a href="../original/">特殊機能</a></li> 
+            <li><a href="../plan/">将来計画</a></li> 
+            <li><a href="../flow/">業務の流れ</a></li> 
+            <li><a href="../result/">業務実績</a></li> 
+        </ul>
+    </nav>
+  </header>
+  <!-- end header -->
+  <div id="main"><!-- main -->
+  	<article>
+      <div class="tt_page">
+        <h2>業務案内<small><img src="images/tt_page.png" alt="WORKS"></small></h2>
+      </div> 
+      <div class="container">
+        <ul class="crumb clearfix">
+          <li><a href="../">HOME</a></li>
+          <li>業務案内</li>
+        </ul>
+        <section class="sec_lead">
+          <div class="text">
+            <h3>テキストが入りますテキストが入ります。<br>テキストが入りますテキストが入ります。</h3>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+          <div class="image">
+            <img src="../images/bg_about01.jpg" alt="テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。">
+          </div>
+        </section>
+        <section class="sec01">
+          <h3 class="tt01">改修コンサルタント</h3>
+          <div class="pl20 mb25">
+            <h4 class="font_noto f24 mb15">テキストが入ります。テキストが入ります。</h4>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+          <div class="chart01">
+            <ul>
+              <li class="li01"><a href="#">時代背景を知る ▶</a></li>
+              <li class="li02"><span>現在</span></li>
+              <li class="li03 step"><span>Step1</span><p>▶ 情報を集める</p></li>
+              <li class="li04 step"><span>Step2</span><p>▶ 計画を立てる</p></li>
+              <li class="li05 step"><span>Step3</span><p>▶ 大規模修繕工事へ進む</p></li>
+              <li class="li06 step"><span>Step4</span><p>▶ 計画を見直す</p></li>
+            </ul>
+            <div class="chart01_right">
+              <a href="#">将来へ向けての責務 ▶</a>
+              <dl class="clearfix">
+                <dt>建物所有者（管理組合）の皆様へ</dt>
+                <dd><a href="" class="btn02">組合の責務</a></dd>
+               </dl>
+               <dl class="clearfix">
+                <dt>業務組織（管理会社）の皆様へ</dt>
+                <dd><a href="" class="btn02">管理会社の職分</a></dd>
+              </dl>
+            </div>
+          </div>
+        </section>
+        <section class="sec01">
+          <h3 class="tt01">時代背景を知る</h3>
+          <div class="pl20 mb25">
+            <h4 class="font_noto f24 mb15">テキストが入ります。テキストが入ります。</h4>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+          <p class="mb30"><img src="images/chart.jpg" alt="時代背景を知る"></p>
+          <div class="pl30 pr30">
+            <h4 class="font_noto f22">品質確保促進法制定の時期によって問題が変わります。</h4>
+            <ul class="mt15 clearfix">
+              <li class="box01 pull_left">
+                <h5>制定前</h5>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </li>
+              <li class="box01 pull_right">
+                <h5>制定後</h5>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sec02">
+          <h3 class="tt01">将来への責務</h3>
+          <div class="mb30 clearfix">
+            <img src="images/img01.jpg" class="pull_right ml45" alt="将来への責務">
+            <h4 class="font_noto f24 mb15">テキストが入ります。テキストが入ります。</h4>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+
+          <h4 class="tt_build">管理組合の責務</h4>
+          <h5 class="font_noto f26 mb10">テキストが入ります。テキストが入ります。テキストが入ります。</h5>
+          <p class="mb40">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+
+          <h4 class="tt_build">管理組合の責務</h4>
+          <h5 class="font_noto f26 mb10">テキストが入ります。テキストが入ります。テキストが入ります。</h5>
+          <p class="mb40">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          <div class="box02">
+            <a href="../contact/" class="btn02">お問い合わせ</a>
+            <h4 class="font_noto f26 mb10">問題の原因究明が、健全な建物維持の第一歩。</h4>
+            <p>例えば「タイルの浮き」と一口に言っても、その要因はさまざまです。タイルが浮いている原因を見極めて、根本的な解決を図らなければ、何度も改修工事を繰り返してしまうことになります。そのため、タイル建物研究所では常に根本的な問題解決を心がけています。</p>
+          </div>
+        </section>
+        <section class="sec02">
+          <h3 class="tt01">将来計画</h3>
+          <div class="plan01 clearfix">
+            <div class="image"><img src="images/img02.jpg" alt=""></div>
+            <div class="text">
+              <h4 class="font_noto f24 mb10">1. テキストテキストテキスト</h4>
+              <p class="mb20">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              <dl>
+                <dt><span>ココがポイント！</span>テキストテキストテキストテキストテキスト</dt>
+                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="plan01 clearfix">
+            <div class="image"><img src="images/img03.jpg" alt=""></div>
+            <div class="text">
+              <h4 class="font_noto f24 mb10">2. テキストテキストテキスト</h4>
+              <p class="mb20">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              <dl>
+                <dt><span>ココがポイント！</span>テキストテキストテキストテキストテキスト</dt>
+                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="plan01 clearfix">
+            <div class="image"><img src="images/img04.jpg" alt=""></div>
+            <div class="text">
+              <h4 class="font_noto f24 mb10">3. テキストテキストテキスト</h4>
+              <p class="mb20">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              <dl>
+                <dt><span>ココがポイント！</span>テキストテキストテキストテキストテキスト</dt>
+                <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="plan02">
+            <h4>タイル建物研修所による外壁タイル工事予算圧縮の目安</h4>
+            <p><img src="images/chart02.png" alt="タイル建物研修所による外壁タイル工事予算圧縮の目安"></p>
+          </div>
+
+        </section>
+
+      </div>
+    </article>
+  </div>
+  <!-- end main -->
+  <footer id="footer"><!-- footer -->
+   	<div class="page_up"><a href="#wrapper"><img src="../common_img/page_up.png" alt="PAGE TOP"></a></div>
+    <div class="container">
+      <p class="f_logo"><a href="../"><img src="../common_img/f_logo.png" alt="INSTITUTE for TILE and RENEWAL タイル建物研究所"></a></p>
+      <ul class="f_info clearfix">
+        <li class="f_add">
+          <address>〒530-0001 <br>大阪府大阪市北区梅田1丁目1番3-700号 大阪駅前第3ビル7階2-5号室</address>
+          <a href="../company/#access">Access Map</a>
+        </li>
+        <li class="f_contact">
+          <p>ご相談・お問い合わせなど、お気軽にお問い合わせください。</p>
+          <ul class="mt05 clearfix">
+            <li class="pull_left"><span class="tel"><small>Tel :</small> 06-6348-2555</span></li>
+            <li class="pull_left"><a href="../contact/"><img src="../common_img/text_contact.png" alt="CONTACT"></a></li>
+          </ul>
+        </li>
+      </ul>
+      <nav class="fnav">
+        <ul> 
+            <li><a href="../">HOME</a></li> 
+            <li><a href="../about/">タイル建物研究所とは</a></li> 
+            <li><a href="../works/">業務案内</a></li> 
+            <li><a href="../original/">特殊機能</a></li> 
+            <li><a href="../plan/">将来計画</a></li> 
+            <li><a href="../flow/">業務の流れ</a></li> 
+            <li><a href="../result/">業務実績</a></li> 
+            <li><a href="../company/">会社案内</a></li> 
+            <li><a href="../news/">新着情報</a></li> 
+            <li><a href="../contact/">お問い合わせ</a></li> 
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- end footer -->
+</div>
+<!-- end wrapper --> 
+<!-- End tn-wrapper --> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/smoothscroll.js"></script>
+</body>
+</html>

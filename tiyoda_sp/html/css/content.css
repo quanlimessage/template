@@ -1,0 +1,77 @@
+@charset "utf-8";
+.sg_main > article > *:last-child { margin-bottom: 0; }
+.tt_page { background: url(../common_img/bg_tt_page.jpg) center center; background-size: cover; padding: 40px 2%; margin: 0 -2% 30px; position: relative; z-index: 3; overflow: hidden; }
+.tt_page .bg { position: absolute; top: 0; right: -50%; bottom: 0; left: -50%; z-index: -1; text-align: center; }
+.tt_page .bg img { height: 100%; }
+.sec01 { margin-bottom: 30px; }
+.tt01 { border-bottom: 1px solid #103d84; margin-bottom: 15px; position: relative; padding: 0 0 8px; }
+.tt01:after { content: ""; height: 3px; background: #1f7bfe; width: 37px; left: 0; bottom: -1px; position: absolute; }
+.sub_tt01 { background: url(../images/bg01.png); background-size: 32px 32px; padding: 5px; margin-bottom: 10px; }
+.bnr_contact { background: url(../common_img/bg_bnr_contact.jpg); background-size: cover; padding: 15px; margin: 30px 0; }
+.bnr_contact .inner { background: rgba(21, 85, 179, 0.8); -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 20px 15px; text-align: center; }
+.pattern01 { background: url(../images/bg01.png); background-size: 32px 32px; padding: 3%; }
+
+/* contact */
+.bnr_tel { background: url(../contact/images/bg_tel.jpg) top center; background-size: cover; padding: 20px 2%; text-align: center; margin-bottom: 30px; }
+.list_privacy { background: #f3faff; padding: 10px 10px 5px 30px; margin: 20px 0 0; }
+.list_privacy li { position: relative; margin-bottom: 5px; }
+.list_privacy li:before { content: ""; width: 6px; height: 6px; background: #00276f; position: absolute; left: -15px; top: 5px; transform: rotate(45deg); -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); }
+
+/* about */
+.about01 { background: url(../about/images/bg01.jpg) top center no-repeat; background-size: 100% auto; padding: 15px 2% 5px; margin-bottom: 30px; }
+.about01 h3 { border-bottom: 1px solid #a6a6a6; color: #00276f; font-size: 18px; font-family: "A-OTF Gothic MB101 Pro"; position: relative; margin: 15px 0; padding-bottom: 5px; letter-spacing: -0.5px; }
+.about01 h3:before { content: ""; height: 5px; width: 5px; background: #a6a6a6; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; position: absolute; left: 0; bottom: -3px; }
+.about01 p { margin-bottom: 15px; }
+.about_flow { position: relative; border: 1px solid #004cb7; padding: 30px 2% 10px; margin-top: 40px; background: #f8f8f8; }
+.about_flow .number { position: absolute; background: url(../about/images/ico_num.png) no-repeat; background-size: 47px auto; height: 47px; width: 47px; text-align: center; padding: 8px 0; top: -24px; left: 2%; font-family: "Yu Gothic"; font-size: 20px; font-weight: bold; color: #fff; }
+.about_flow dt { font-size: 18px; color: #004cb7; padding-bottom: 2px; border-bottom: 1px dashed #c6c6c6; margin-bottom: 10px; font-weight: bold; }
+
+/* news */
+#news_list .news_box { margin-bottom: 30px; }
+#news_list .news_box .headline { border-bottom: 1px dashed #1e5ca7;/*見出し部の下線*/ padding: 5px 0px; margin-bottom: 10px; }
+#news_list .news_box .headline time { display: inline-block; background: #1e5ca7;/*投稿日時の色*/ padding: 2px 18px; color: #fff; }
+#news_list .news_box .headline h3 { font-size: 15px; line-height: 1.5; margin-top: 5px; }
+#news_list .news_box .news_inner .news_img { float: left; width: 40%; margin: 5px 10px 5px 0; }
+.news_pager { position: relative; margin-top: 35px; text-align: center; }
+.news_pager .pager_btn { display: inline-block; background: #6492c9;/*ãƒšãƒ¼ã‚¸é€ã‚Šã®è‰²*/ border-radius: 6px; }
+.news_pager .pager_btn.back_list { background: #1e5ca7;/*ä¸€è¦§ã¸æˆ»ã‚‹ãƒœã‚¿ãƒ³ã®è‰²*/ margin-top: 15px; }
+.news_pager .pager_btn.prev_btn { float: left; }
+.news_pager .pager_btn.next_btn { float: right; }
+.news_pager .pager_btn a { display: inline-block; color: #fff; text-decoration: none; }
+.news_pager .pager_btn.back_list a { padding: 5px 17px 5px 10px; }
+.news_pager .pager_btn.back_list a::before { display: inline-block; content: ''; border: 4px solid transparent; border-right: 4px solid #fff; margin-right: 5px; vertical-align: 1px; }
+.news_pager .pager_btn.prev_btn a { padding: 5px 17px 5px 10px; }
+.news_pager .pager_btn.prev_btn a::before { display: inline-block; content: ''; border: 4px solid transparent; border-right: 4px solid #fff; margin-right: 5px; vertical-align: 1px; }
+.news_pager .pager_btn.next_btn a { padding: 5px 10px 5px 17px; }
+.news_pager .pager_btn.next_btn a::after { display: inline-block; content: ''; border: 4px solid transparent; border-left: 4px solid #fff; margin-left: 5px; vertical-align: 1px; }
+
+/* Company */
+.list_anchor { margin-bottom: 30px; }
+.list_anchor a { display: table; width: 100%; position: relative; }
+.list_anchor a span { position: absolute; top: 50%; margin-top: -10px; right: 5px; left: 0; text-align: center; color: #fff; font-size: 16px; font-family: "A-OTF Gothic MB101 Pro"; font-weight: bold; text-decoration: none; display: table-cell; vertical-align: middle; line-height: 1; }
+.company01 { background: url(../company/images/bg01.jpg); background-size: cover; padding: 3%; margin-bottom: 30px; }
+.company01 .inner { background-color: rgba(255, 255, 255, .85); padding: 3%; }
+.company_tbl { width: 100%; }
+.company_tbl tr { border-bottom: 1px dashed #bdbdbd; }
+.company_tbl tr:first-child { border-top: 1px dashed #bdbdbd; }
+.company_tbl th { text-align: left; padding: 6px 0; vertical-align: top; }
+.company_tbl td { border: none; background: none; padding: 6px 0; line-height: 1.8; }
+
+/* Enbi */
+.enbi_box01 { border: 1px solid #1f7bfe; padding: 10px; }
+.enbi_box02 { background: #e8f5ff; padding: 15px 10px; }
+
+/* Equipment */
+.equip_box01 { background: #0f4794; padding: 2%; color: #fff; }
+.equip_tbl { width: 100% }
+.equip_tbl th, .equip_tbl td { border: 1px solid #a6a6a6; padding: 5px 4px; text-align: center; background: #fff; line-height: 1.3 }
+.equip_tbl th { background: #e8f5ff; padding: 5px 4px; }
+
+/* Shashutsu */
+.shashutsu_list { margin-top: 25px; }
+.shashutsu_list dl { position: relative; border: 1px solid #1f7bfe; display: table; width: 100%; margin-bottom: 45px; }
+.shashutsu_list dl:after { content: ""; background: url(../shashutsu/images/arrow.png) no-repeat; background-size: 29px auto; width: 30px; height: 15px; position: absolute; bottom: -30px; left: 48px; }
+.shashutsu_list dl:last-child:after { display: none; }
+.shashutsu_list dl dt { background: #1f7bfe; width: 125px; text-align: center; display: table-cell; vertical-align: middle; color: #fff; font-size: 18px; font-weight: bold; }
+.shashutsu_list dl dd { padding: 2%; display: table-cell; }
+.sha_sec01 { background: url(../shashutsu/images/bg01.jpg); background-size: cover; padding: 3%; text-align: center; }

@@ -1,0 +1,70 @@
+@charset "utf-8";
+.tt_page { background: url(../common_img/bg_tt_page.jpg) center center no-repeat; background-size: cover; margin: 0 -2% 20px; padding: 45px 2%; }
+.tt_page p { font-family: 'Yu Gothic', '游ゴシック', sans-serif; font-size: 13px; font-weight: bold; color: #362e2b; text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; margin-top: 5px; }
+.sec01 { margin-bottom: 25px; }
+.sec01:last-child { margin-bottom: 0px; }
+.sec01 h3 { margin-bottom: 15px; }
+.tbl01 { width: 100%; }
+.tbl01 th { border: 1px solid #cdcdcd; padding: 5px; text-align: center; width: 100px; background: #f8f8f1; font-weight: normal; vertical-align: middle; }
+.tbl01 td { border: 1px solid #cdcdcd; padding: 5px 8px; }
+.bnr_contact { background: url(../common_img/bg_bnr_contact.jpg) top right; background-size: cover; padding: 10px; margin-bottom: 25px; text-align: center; }
+.bnr_contact h3 { color: #362e2b; font-size: 20px; position: relative; font-family: 'Yu Gothic', '游ゴシック', sans-serif; margin-bottom: 20px; }
+.bnr_contact h3:before { content: ""; background: #62b040; height: 1px; width: 150px; left: 50%; margin-left: -75px; bottom: -5px; position: absolute; }
+.bnr_contact address { display: inline-block; text-align: left; margin-bottom: 10px; }
+.bnr_contact .box { padding: 10px; border: 1px dashed #ffd378; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-color: #fefeea; max-width: 325px; margin: 0 auto; }
+.bnr_contact .fax { font-family: 'Yu Gothic', '游ゴシック', sans-serif; font-size: 17px; font-weight: bold; }
+.bnr_contact .fax span { color: #ffbd3f; font-size: 13px; }
+.bnr_contact .tel { background: url(../common_img/ico_tel.png) left center no-repeat; background-size: 30px auto; padding-left: 36px; font-size: 25px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; font-weight: bold; display: inline-block; padding-top: 3px; }
+.bnr_contact .tel a { color: #000; text-decoration: none; }
+.tt01 { font-family: 'Yu Gothic', '游ゴシック', sans-serif; font-size: 18px; color: #62b040; border-bottom: 1px solid #62b040; margin-bottom: 15px; }
+.tt02 { background: url(../common_img/ico_i.png) left center no-repeat; background-size: 22px auto; padding-left: 25px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; font-size: 20px; color: #62b040; margin-bottom: 10px; }
+.tt03 { font-family: 'Yu Gothic', '游ゴシック', sans-serif; color: #62b040; padding-left: 30px; margin-bottom: 15px; position: relative; font-size: 20px; margin-bottom: 10px; }
+.tt03 .ico { position: absolute; left: 0; top: 3px; }
+.tt04 { color: #f4930a; font-size: 16px; text-align: center; font-family: 'Yu Gothic', '游ゴシック', sans-serif; margin-bottom: 10px; }
+
+/* office */
+.in_office { -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; background-color: #fff; border: solid 1px #62b040; padding: 6px; }
+.in_office li { padding-left: 28px; position: relative; }
+.in_office li .ico { background: #f4930a; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; color: #fff; width: 24px; height: 24px; position: absolute; left: 0; top: 0; text-align: center; line-height: 24px; font-size: 18px; }
+
+/* other */
+.box_other { background: url(../other/images/bg01.jpg) bottom center; background-size: cover; padding: 10px; margin-bottom: 20px; }
+.box_other h3 { font-family: "Yu Gothic"; font-size: 17px; color: #f4930a; position: relative; text-align: center; }
+.box_other h3:before { content: ""; background: #726966; height: 1px; width: 76px; left: 50%; margin-left: -38px; bottom: -5px; position: absolute; }
+.box_other2 { border: 2px solid #ffbd3f; }
+.box_other2 h4 { background: #fff2bd; font-size: 18px; color: #62b040; padding: 5px 10px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; }
+
+/* sokuryo */
+.sec02 { border: 2px solid #62b040; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 45px 1.5% 10px; position: relative; margin: 35px 0 25px; }
+.sec02 .ico { position: absolute; top: -10px; left: 50%; margin-left: -30px; }
+.sec02 h3 { font-family: YuGothic, '游ゴシック', sans-serif; font-size: 21px; color: #62b040; text-align: center; margin-bottom: 10px; }
+.sec02 .image { margin: 0 -1.5% 10px; }
+.sec02 li { padding-left: 10px; position: relative; margin-bottom: 10px; }
+.sec02 li:last-child { margin-bottom: 0; }
+.sec02 li:before { content: "・"; position: absolute; left: -5px; top: 0px; }
+.box_sokuryo01 { background: url(../sokuryo/images/bg01.jpg); background-size: cover; padding: 10px; color: #fff; font-weight: bold; font-family: YuGothic, '游ゴシック', sans-serif; position: relative; }
+.box_sokuryo01 h3 { font-size: 17px; position: relative; text-align: center; margin-bottom: 15px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; z-index: 2; }
+.box_sokuryo01 h3:before { content: ""; background: #fff; height: 1px; width: 76px; left: 50%; margin-left: -38px; bottom: -5px; position: absolute; }
+.box_sokuryo01 .ico { position: absolute; top: -10px; left: 10px; }
+.box_style01 { padding: 10px; border: 1px dashed #ffd378; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-color: #fefeea; }
+.box_style01 li { text-indent: -20px; margin-left: 20px; }
+
+/* tohki */
+.tohki_box { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-color: #f4f4d9; -webkit-box-shadow: 1px 1px rgba(184, 184, 164, .8); -moz-box-shadow: 1px 1px rgba(184, 184, 164, .8); box-shadow: 1px 1px rgba(184, 184, 164, .8); padding: 6px; margin-bottom: 15px; }
+.tohki_box .title { margin-bottom: 15px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; }
+.tohki_box .title h4 { float: left; color: #62b040; font-size: 18px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; }
+.tohki_box .title div { float: right; text-align: center; width: calc(100% - 145px); }
+.tohki_box .title p { display: inline-block; background: #362e2b; border-radius: 10px; padding: 3px 0; text-align: center; color: #fff; font-size: 15px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; width: 143px; }
+.tohki_box li { background: #fff; border: 1px solid #ccc; width: 31.333%; float: left; margin: 0 1%; padding: 5px 5px 35px; position: relative; }
+.tohki_box li:before { content: ""; background: url(../tohki/images/kado.png) right bottom no-repeat; background-size: 100% auto; width: 35px; height: 30px; position: absolute; right: -1px; bottom: -1px; }
+.tohki_box li .arrow { position: absolute; right: -8px; top: 48%; }
+.tohki_box li .arrow2 { position: absolute; right: 47%; top: 101%; }
+.tohki_box li .arrow3 { position: absolute; top: 48%; left: -10px; }
+.li_box h5 { font-size: 16px; color: #62b040; border-bottom: 1px solid #62b040; text-align: center; margin-bottom: 10px; font-family: 'Yu Gothic', '游ゴシック', sans-serif; }
+.tohki_box.second { float: right; width: 66.66%; }
+.tohki_box.second li { width: 48%; }
+.tohki_box.second .title div { width: auto; }
+
+.list01 li { padding-left: 10px; position: relative; margin-bottom: 10px; }
+.list01 li:last-child { margin-bottom: 0; }
+.list01 li:before { content: "・"; position: absolute; left: -5px; top: 0px; }

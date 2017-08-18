@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#footer { margin-top: 120px; }
+.tt_page { background: url(../common_img/bg01.jpg); padding: 30px; margin: 20px 0 10px; }
+.crumb { margin-bottom: 30px; }
+.crumb li { margin-right: 35px; position: relative; float: left; }
+.crumb li:after { content: ">"; position: absolute; right: -20px; top: 0; }
+.crumb li:last-child:after { display: none;}
+.crumb a { text-decoration: none; position: relative; }
+.crumb a:before { background: #fe8a01; content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px;  }
+.crumb a:hover:before { display: none; }
+
+/*====================================================================================
+■01.Contact PAGE 
+====================================================================================*/
+.tbl_contact { width: 100%; }
+.tbl_contact th { background: #f7f3eb; border: 1px solid #8d7300; width: 240px; vertical-align: middle; padding: 20px; text-align: left; font-weight: normal;  }
+.tbl_contact td { background: #fff; border: 1px solid #8d7300; padding: 20px; }
+.box_pp { background: url(../common_img/bg02.jpg); padding: 20px; margin-top: 25px; }
+.box_pp .inner  { border: 3px solid #ffe66f; padding: 17px; line-height: 2.2; }

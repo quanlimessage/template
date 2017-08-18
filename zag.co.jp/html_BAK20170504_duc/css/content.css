@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.tt_page { background: #f0dec6; margin-bottom: 10px; }
+.tt_page .circle { position: absolute; right: 0; top: 23px; z-index: 3; width: 156px; }
+.crumb { margin-bottom: 25px; }
+.crumb li:first-child a { background: url(../common_img/ico_home.png) left 5px no-repeat; padding-left: 16px; }
+.crumb li { float: left; margin-right: 20px; position: relative; }
+.crumb li:before { content: ">"; position: absolute; right: -15px; top: 0; }
+.crumb li:last-child:before { display: none; }
+.crumb a { color: #816f66; }
+#main { padding-bottom: 100px; }
+#content { float: left; width: 720px; color: #563f2d; }
+#sidebar { float: right; width: 230px; color: #563f2d; }
+#sidebar section { background: url(../common_img/pattern01.png); padding: 15px 7px; margin-bottom: 20px; }
+.s_list01 li { margin-bottom: 4px; }
+.s_list01 a { background: url(../common_img/arrow01.png) 190px center no-repeat #fff; border: 1px solid #b8b0aa; text-decoration: none; padding: 13px 15px; display: block; line-height: 1.2; }
+.s_list01 li:nth-child(4) a { padding: 4px 15px; }
+.sec01 { margin-bottom: 40px; }
+.sec01 h3 { margin-bottom: 20px; }
+.bnr_contact { position: relative; padding-left: 15px; }
+.bnr_contact .text { position: absolute; top: 30px; left: 250px; }
+.bnr_contact .text h4 { font-size: 18px; font-weight: normal; margin: 0 0 10px 20px; }
+/*====================================================================================
+■01.Ome PAGE 
+====================================================================================*/
+.list_phase {padding: 30px 0; }
+.list_phase dt { position: relative; -webkit-border-radius: 10px/9px; -moz-border-radius: 10px/9px; border-radius: 10px/9px; background-color: #f0dfc7; -webkit-box-shadow: inset 0 0 0 1px #fffcfa; -moz-box-shadow: inset 0 0 0 1px #fffcfa; box-shadow: inset 0 0 0 1px #fffcfa; border: solid 2px #f0dfc7; margin: 0 0 25px 40px; font-size: 16px; padding: 16px 15px 16px 55px; }
+.list_phase dt img { position: absolute; top: -20px; left: -45px; z-index: 2; }
+.list_phase dd { margin: 0 -15px 30px 0; position: relative; padding-left: 90px; }
+.list_phase dd:before { content: ""; width: 0; height: 0; border-top: 10px solid #f0dfc7; border-right: 26px solid transparent;  border-left: 26px solid transparent; left: 20px; top: 5px; position: absolute; }
+.list_phase dd:last-child:before { display: none; }

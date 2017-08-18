@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+input[type="radio"],
+input[type="checkbox"] { vertical-align: -0.1em; }
+input[type="text"], input[type="tel"], input[type="email"], textarea { border: 1px solid #e2e2e2; width: 100%; padding: 12px; resize: none; }
+input.other { width: 665px; float: right; }
+input.number_add { width: 235px; }
+select { border: 1px solid #e2e2e2; width: 235px; padding: 10px; font-size: 13px; }
+
+#formEnd { text-align:center; padding-top: 15px; }
+#formEnd a { color: #2274d4; }
+#formEnd button {font-size:13px; font-family: "Meiryo","メイリオ","MS PGothic","MS Pゴシック",sans-serif; font-size: 16px; background: #6b5641; border: 1px solid #6b5641; color: #fff; text-decoration: none; padding: 15px 0; width: 340px; position: relative; display: inline-block; text-align: center; cursor: pointer; }
+#formEnd button:before { content: ""; height: 0; width: 0; border-left: 4px solid #fff; border-top: 4px solid transparent; border-bottom: 4px solid transparent; right: 17px; top: 50%; margin-top: -4px; position: absolute; }
+#formEnd button:hover { background: #fff; color: #6b5641; }
+#formEnd button:hover:before { border-left:4px solid #6b5641; }
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+/* ---IME KILL--- */
+.ime_off { ime-mode: desabled; }
+
+.hissu, .ninni { background-color: #6b5641; border: 1px solid #6b5641; color: #fff; padding: 1px 10px; font-size: 12px; font-weight: normal; float: right; }
+.ninni { background-color: #fff; border: 1px solid #6b5641; color: #6b5641; }

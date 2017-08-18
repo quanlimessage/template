@@ -1,0 +1,20 @@
+@charset "utf-8";
+.main_visual { margin: 0 -2% 25px; }
+.t_sec { border: 2px solid #62b040; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 45px 1.5% 10px; position: relative; margin-bottom: 40px; }
+.t_sec .ico { position: absolute; top: -10px; left: 50%; margin-left: -30px; }
+.t_sec h3 { font-family: YuGothic, '游ゴシック', sans-serif; font-size: 20px; text-align: center; margin-bottom: 10px; }
+.t_sec h3 span { font-size: 22px; }
+.t_sec h3 a { background: url(../common_img/arrow01.png) right center no-repeat; background-size: 7px auto; color: #333; text-decoration: none; display: block; }
+.t_sec h3 a span { display: block; }
+.t_sec h3 a:before { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.t_sec .image { margin: 0 -1.5% 10px; }
+.style_box01 { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color: #f4f4d9; -webkit-box-shadow: 1px 1px rgba(184, 184, 164, .8); -moz-box-shadow: 1px 1px rgba(184, 184, 164, .8); box-shadow: 1px 1px rgba(184, 184, 164, .8); padding: 2%; margin-top: 15px; position: relative; }
+.style_box01 h4 { background: url(../common_img/arrow01.png) right center no-repeat; background-size: 7px auto; text-align: center; font-family: YuGothic, '游ゴシック', sans-serif; font-size: 15px; line-height: 1.3; }
+.style_box01 h4 span { color: #62b040; font-size: 21px; margin-left: 5px; }
+.style_box01 h4 a { text-decoration: none; color: #333; }
+.style_box01 h4 a:before { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.style_box01 .text_box01 { background: #fff; padding: 8px; margin-top: 10px; }
+
+.t_sec02 { border: 1px solid #62b040; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 0px 1.5% 20px; position: relative; }
+.t_sec02 h3 { background: #62b040; padding: 8px 5px; margin: 0 -1.5% 10px; color: #fff;font-family: YuGothic, '游ゴシック', sans-serif; font-size: 18px; text-align: center; line-height: 1.1; }
+.t_sec02 h4 { color: #62b040; font-size: 16px; border-bottom: 2px solid #62b040; margin-bottom: 10px; }

@@ -1,0 +1,10 @@
+@charset "utf-8";
+input[type="radio"],
+input[type="checkbox"] { vertical-align: -0.1em; }
+
+#formEnd { text-align:center; }
+ 
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+/* ---IME KILL--- */
+.ime_off { ime-mode: desabled; }

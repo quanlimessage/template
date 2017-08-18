@@ -1,0 +1,233 @@
+@charset "utf-8";
+/*====================================================================================
+■01.RESET HTML
+■02.CLEAR FLOAT
+■03.MARGIN DEFAULT
+■04.LAYOUT
+■05.USE MEDIA
+■06.OTHER
+■07.PAGE UP
+■08.HEADER
+■09.GOLABLE NAVIGATION
+■10.FOOTER
+====================================================================================*/
+/*====================================================================================
+■01.RESET HTML
+====================================================================================*/
+ul, li { list-style:none; }
+img { margin:0px; padding:0px; border:0px;transition:All 0.3s ease; -webkit-transition:All 0.3s ease; -moz-transition:All 0.3s ease; -o-transition:All 0.3s ease; }
+a:hover> img { opacity:0.7; filter:alpha(opacity=70); -ms-filter: "alpha( opacity=70)"; }
+a { color: #333; text-decoration:underline; transition: all 0.5s;  }
+a:hover { text-decoration: none; }
+address { font-style: normal; }
+body { font-size:13px; font-family: "Meiryo","メイリオ","MS PGothic","MS Pゴシック",sans-serif; color: #222222; word-break: break-word; word-wrap: break-word; }
+/*====================================================================================
+■02.CLEAR FLOAT
+====================================================================================*/
+.clearfix:before, .clearfix:after{content:"\0020"; display:block; height:0; overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+/*====================================================================================
+■03.MARGIN DEFAULT
+====================================================================================*/
+/*--------------------------------------------------
+	margin 
+-------------------------------------------------- */ 
+.m00 { margin: 0px !important; }
+.m05 { margin: 5px !important; }
+.m10 { margin: 10px !important; }
+.m15 { margin: 15px !important; }
+.m20 { margin: 20px !important; }
+.m25 { margin: 25px !important; }
+.m30 { margin: 30px !important; }
+.m35 { margin: 35px !important; }
+.m40 { margin: 40px !important; }
+.m45 { margin: 45px !important; }
+.mt00 { margin-top: 0px !important; }
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt25 { margin-top: 25px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt33 { margin-top: 33px !important; }
+.mt35 { margin-top: 35px !important; }
+.mt40 { margin-top: 30px !important; }
+.mt45 { margin-top: 35px !important; }
+.mr00 { margin-right: 0px !important; }
+.mr05 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr25 { margin-right: 25px !important; }
+.mr30 { margin-right: 30px !important; }
+.mr35 { margin-right: 35px !important; }
+.mr40 { margin-right: 40px !important; }
+.mr45 { margin-right: 45px !important; }
+.mb00 { margin-bottom: 0px !important; }
+.mb05 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb25 { margin-bottom: 25px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb35 { margin-bottom: 35px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.mb45 { margin-bottom: 45px !important; }
+.ml00 { margin-left: 0px !important; }
+.ml05 { margin-left: 5px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml25 { margin-left: 25px !important; }
+.ml30 { margin-left: 30px !important; }
+.ml35 { margin-left: 35px !important; }
+.ml40 { margin-left: 40px !important; }
+.ml45 { margin-left: 45px !important; }
+/* 
+--------------------------------------------------
+	padding
+-------------------------------------------------- */
+.p00 { padding: 0px !important; }
+.p05 { padding: 5px !important; }
+.p10 { padding: 10px !important; }
+.p15 { padding: 15px !important; }
+.p20 { padding: 20px !important; }
+.p25 { padding: 25px !important; }
+.p30 { padding: 30px !important; }
+.p35 { padding: 35px !important; }
+.p40 { padding: 40px !important; }
+.p45 { padding: 45px !important; }
+.pt00 { padding-top: 0px !important; }
+.pt05 { padding-top: 5px !important; }
+.pt10 { padding-top: 10px !important; }
+.pt15 { padding-top: 15px !important; }
+.pt20 { padding-top: 20px !important; }
+.pt25 { padding-top: 25px !important; }
+.pt30 { padding-top: 30px !important; }
+.pt35 { padding-top: 35px !important; }
+.pt40 { padding-top: 40px !important; }
+.pt45 { padding-top: 45px !important; }
+.pr00 { padding-right: 0px !important; }
+.pr05 { padding-right: 5px !important; }
+.pr10 { padding-right: 10px !important; }
+.pr15 { padding-right: 15px !important; }
+.pr20 { padding-right: 20px !important; }
+.pr25 { padding-right: 25px !important; }
+.pr30 { padding-right: 30px !important; }
+.pr35 { padding-right: 35px !important; }
+.pr40 { padding-right: 40px !important; }
+.pr45 { padding-right: 45px !important; }
+.pb00 { padding-bottom: 0px !important; }
+.pb05 { padding-bottom: 5px !important; }
+.pb10 { padding-bottom: 10px !important; }
+.pb15 { padding-bottom: 15px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb25 { padding-bottom: 25px !important; }
+.pb30 { padding-bottom: 30px !important; }
+.pb35 { padding-bottom: 35px !important; }
+.pb40 { padding-bottom: 40px !important; }
+.pb45 { padding-bottom: 45px !important; }
+.pl00 { padding-left: 0px !important; }
+.pl05 { padding-left: 5px !important; }
+.pl10 { padding-left: 10px !important; }
+.pl15 { padding-left: 15px !important; }
+.pl20 { padding-left: 20px !important; }
+.pl25 { padding-left: 25px !important; }
+.pl30 { padding-left: 30px !important; }
+.pl35 { padding-left: 35px !important; }
+.pl40 { padding-left: 40px !important; }
+.pl45 { padding-left: 45px !important; }
+/*====================================================================================
+■04.LAYOUT
+====================================================================================*/
+.container { position: relative; width: 1000px; margin: 0 auto; }
+/*====================================================================================
+■05.USE MEDIA
+====================================================================================*/
+.pull_left { float:left !important; }
+.pull_right { float:right !important; }
+.media, .media-body { overflow:hidden; }
+.media > .pull_left { margin-right:20px; }
+.media > .pull_right { margin-left:20px; }
+.media-text:after { clear: both; display: block; content: ""; height: 0px; visibility: hidden; }
+.pic_l .image { float:left; margin: 5px 10px 5px 0; }
+.pic_r .image { float:right; margin:5px 0 5px 10px; }
+.document p { margin-bottom: 10px; }
+/*====================================================================================
+■06.OTHER
+====================================================================================*/
+.text_normal { font-weight:normal !important }
+.text_bold { font-weight:bold !important }
+.text_left { text-align:left !important }
+.text_right { text-align:right !important }
+.text_center { text-align:center !important }
+/*====================================================================================
+■07.PAGE UP
+====================================================================================*/
+.page_up { }
+/*====================================================================================
+■08.HEADER
+====================================================================================*/
+#header { background: #fff; background: rgba(255,255,255,0.95); }
+h1 { color: #aeaaa6; font-size: 11px; font-weight: normal; }
+.h_logo { float: left; padding-top: 10px; }
+.h_nav { float: left; margin-left: 225px; padding: 22px 30px 0 0; position: relative; }
+.h_nav:before { content: ""; width: 1px; background: #e2dfdd; height: 50px; position: absolute; top: 0; right: 15px; -moz-transform: rotate(34deg); -webkit-transform: rotate(34deg); transform: rotate(34deg); }
+.h_nav li { display: inline-block; background: url(../common_img/arrow01.png) left 7px no-repeat; padding-left: 10px; margin-right: 15px; }
+.h_nav a { font-family: "游明朝" , "Yu Mincho"; font-size: 13px; color: #222222; text-decoration: none; }
+.h_nav a:hover { text-decoration: underline; }
+.h_info { float: right; }
+.h_info li { float: left; }
+.h_info a { background: #4e4f54; display: block; padding: 18px 13px; }
+.h_info a:hover { background: #6b5641;  }
+.h_info a img { display: block; }
+.h_info .tel { font-family: "游明朝" , "Yu Mincho"; font-size: 26px; font-weight: bold; padding: 10px 25px 0 40px; position: relative; }
+.h_info .tel small { font-size: 16px; display: inline-block; position: absolute; left: 0; bottom: 7px; }
+
+
+/*====================================================================================
+■09.GOLABLE NAVIGATION
+====================================================================================*/
+#gnav { text-align: center; padding: 30px 0 7px; }
+#gnav li { display: inline-block; margin: 0 53px; }
+#gnav a { color: #222; text-decoration: none; font-size: 13px; display: block; position: relative; padding-bottom: 5px;}
+#gnav a:before, #gnav a:after { content: ""; height: 3px; background: #222; position: absolute; left: 50%; width: 0; bottom: 0; transition: all 0.7s; }
+#gnav a:after { right: 50%; left: auto; }
+#gnav a:hover:before,#gnav a:hover:after { width: 50%; }
+
+/*==========================================
+
+■10.FOOTER
+====================================================================================*/
+#footer { background: #63605d; color: #fff; padding: 55px 0 25px; font-size: 11px; }
+#footer .page_up { display: none; position: fixed; bottom: 50px; right: 50%; margin-right: -580px; z-index: 99; }
+.f_logo { text-align: center; margin-bottom: 30px; }
+.f_info { padding: 0 20px 30px; }
+.f_add { float: left; }
+.f_add a { color: #fff; padding-right: 13px; position: relative; display: inline-block; text-decoration: none; margin-top: 5px; }
+.f_add a:before { content: ""; width: 0; height: 0; border-left: 4px solid #fff; border-top: 4px solid transparent; border-bottom: 4px solid transparent; position: absolute; right: 0; top: 5px; }
+.f_add a:hover { color: #f0c54e; }
+.f_add a:hover:before { border-left: 4px solid #f0c54e; }
+.f_contact { float: right; text-align: right; }
+.f_contact .tel { font-family: "游明朝" , "Yu Mincho"; font-size: 26px; font-weight: bold; padding: 0px 16px 0 40px; position: relative; display: inline-block; float: left; }
+.f_contact .tel small { font-size: 16px; display: inline-block; position: absolute; left: 0; bottom: 7px; }
+.f_contact a { background: url(../common_img/ico_mail.png) 18px center no-repeat #3d3d3d; padding: 12px 70px; display: inline-block; }
+.f_contact a:hover {background-color: #6b5641; }
+.fnav { text-align: center;  }
+.fnav li { display: inline-block; padding: 0 15px; position: relative; }
+.fnav li:before { content: ""; height: 11px; width: 1px; background: #fff; position: absolute; left: 0; top: 2px; }
+.fnav li:last-child:after { content: ""; height: 11px; width: 1px; background: #fff; position: absolute; right: 0; top: 2px; }
+.fnav a { color: #fff; text-decoration: none; }
+.fnav a:hover { text-decoration: underline; }
+/*==========================================*/
+
+a.btn01 { background: #f6f2ed; color: #222222; text-decoration: none; padding: 10px 65px; position: relative; display: inline-block; }
+a.btn01:before { content: ""; height: 0; width: 0; border-left: 4px solid #222; border-top: 4px solid transparent; border-bottom: 4px solid transparent; right: 17px; top: 50%; margin-top: -4px; position: absolute; }
+a.btn01:hover { background: #222; color: #fff; }
+a.btn01:hover:before { border-left:4px solid #fff; }
+
+a.btn02 { background: #6b5641; color: #fff; text-decoration: none; padding: 10px 0; width: 240px; position: relative; display: inline-block; text-align: center; font-size: 12px; }
+a.btn02:before { content: ""; height: 0; width: 0; border-left: 4px solid #fff; border-top: 4px solid transparent; border-bottom: 4px solid transparent; right: 17px; top: 50%; margin-top: -4px; position: absolute; }
+a.btn02:hover { background: #fff; color: #6b5641; }
+a.btn02:hover:before { border-left:4px solid #6b5641; }

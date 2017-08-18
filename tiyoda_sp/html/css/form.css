@@ -1,0 +1,44 @@
+@charset "utf-8";
+input[type="radio"], input[type="checkbox"] { vertical-align: -0.1em; }
+input[type="text"], input[type="tel"], input[type="email"], textarea, select {  padding: 5px; width: 100%; }
+label.lb{ width: 75px; display: inline-block; }
+.input_name { width: calc(100% - 78px) !important; }
+
+#formEnd { text-align: center; }
+
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+
+/* ---IME KILL--- */
+.ime_off { ime-mode: desabled; }
+.hissu, .ninni { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color: #ffa303; color: #fff; padding: 1px 10px; margin-right: 10px; }
+.ninni { background-color: #004cb7; }
+
+.table_form { width: 100%; margin-bottom: 15px; }
+.table_form tr { border-bottom: 1px dashed #bdbdbd; }
+.table_form tr:first-child { border-top: 1px dashed #bdbdbd; }
+.table_form th { padding: 10px 0; text-align: left; }
+.table_form td { vertical-align: middle; padding: 10px 0; border: none; }
+.table_form .list_check li { float: left; margin-right: 50px; }
+.list_radio li { float: left; margin-right: 40px; }
+.table_form li { margin-bottom: 5px; }
+
+.table_form_w1 { width: 150px }
+.form2col { overflow: hidden; text-align: right; }
+.form2col-1 { float: left; width: 48% }
+.form2col-2 { float: right; width: 48% }
+.form_control_sm { width: 130px; }
+.form_control { display: block; width: 98%; }
+.form_group { margin-bottom: 10px; }
+.form2col input { text-align: left; }
+#address_search { margin-bottom: 10px; }
+#formEnd { text-align: center; }
+#formEnd input { display: inline-block; padding: 6px 12px; cursor: pointer; font-weight: bold; }
+
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+
+/* ---IME KILL--- */
+.ime_off { ime-mode: desabled; }
+.form_submit { text-align: center; margin: 20px 0 0; }
+.btn_submit { width: 274px; }

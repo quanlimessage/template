@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------------------------
+  util => clear
+--------------------------------------------------------------------------------*/
+.clearfix::after { content: ''; display: block; clear: both; height: 0; }
+.both { clear: both; }
+
+/*--------------------------------------------------------------------------------
+  news_list
+--------------------------------------------------------------------------------*/
+.news_box { border: 1px solid #e0dedc; margin-bottom: 40px; padding: 20px 15px; position: relative; }
+.news_box:before { background: #725e49; content: ""; position: absolute; left: 0; top: 0; right: 0; height: 3px; }
+.news_box header { background: url(../news/images/ico_date.png) left top no-repeat; border-bottom: 1px dashed #eaeaea;/*見出し部の下線*/ padding: 0 0 18px 40px; }
+.news_box header time { margin: 5px 25px 0px 0px; color: #6b5641; font-size: 14px; font-weight: bold; float: left; }
+.news_box header h3 { font-size: 16px; float: right; width: 805px; padding-top: 3px; }
+.news_box .news_text { padding:  30px 0 0 10px; font-size: 14px; }
+.news_box .photo1 { float: left; width: 365px; margin: 0 20px 10px 0; }
+.news_box .photo1 img { max-width: 100% }
+.news_box .news_text  .text { float: left; width: 545px; }
+
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+input[type="radio"],
+input[type="checkbox"] { vertical-align: -0.1em; }
+input[type="text"],input[type="email"],input[type="tel"], textarea { border: 1px solid #cccccc; width: 100%; padding: 5px; }
+select { border: 1px solid #cccccc;  padding: 5px; }
+input.other { width: 405px; float: right; }
+input.input_name { width: 170px; }
+input.number_add { width: 170px; }
+
+#formEnd { text-align:center; padding: 15px 0 20px; }
+#formEnd .btn_submit:hover { opacity: 0.7;
+filter: alpha(opacity=70);; }
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+/* ---IME KILL--- */
+.ime_off { ime-mode: desabled; }
+
+.hissu, .ninni { background: #ce7128; padding: 1px 13px; font-weight: normal; font-size: 12px; color: #fff; margin-right: 10px; }
+.ninni { background: #faeec7; color: #d17731;  }

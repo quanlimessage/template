@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="ltr" lang="vn">
+    <head ng-app="House">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <meta name="format-detection" content="telephone=no">
+        <title>Bất động sản Quang Minh</title>
+        <!-- CSS -->
+        <link href="./css/reset.css" rel="stylesheet" type="text/css">
+        <link href="./css/base.css" rel="stylesheet" type="text/css">
+        <link href="./css/top.css" rel="stylesheet" type="text/css">
+        <link href="./css/font.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,vietnamese" rel="stylesheet" type="text/css">
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> -->
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script src="./js/jquery.min.js"><\/script>')</script>
+    </head>
+    <body ng-controller="HouseController as house">
+        <div id="wrapper">
+            <div id="header">
+                <div class="h1_sec">
+                    <div class="container">
+                        <h1>Bất động sản Quốc Minh(QM).Tâm và Tín nâng tầm giá trị.</h1>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end h1_sec -->
+                <div class="h_sec">
+                    <div class="container clearfix">
+                        <div class="logo_sec clearfix">
+                            <p class="h_logo"><a href="./" class="ov_hover"><img src="./common_img/h_logo.png" alt="batdongsanqm"></a></p>
+                            <p class="slogan">Tâm và Tín nâng tầm giá trị</p>
+                        </div>
+                        <!-- end logo_sec -->
+                        <div class="right">
+                            <p class="h_text"><img src="./common_img/h_text.png" alt="Đừng ngần ngại, hãy liên hệ ngay với chung tôi !"></p>
+                            <div class="clearfix">
+                                <p class="tel">
+                                    <img src="./common_img/h_tel.png" alt="091-785-9302" class="pc_tel">
+                                    <a href="tel:0917-859-302" class="sp_tel"><img src="./common_img/sp_tel.png" alt="091-785-9302"></a>
+                                </p>
+                                <p class="btn">
+                                    <a href="./lienhe" class="ov_hover pc_mail"><img src="./common_img/h_btn.png" alt="Liên hệ"></a>
+                                    <a href="./lienhe" class="sp_mail"><img src="./common_img/sp_mail.png" alt="Liên hệ"></a>
+                                </p>
+                                <p class="sp_menu"><a><img src="./common_img/sp_menu.png" alt="Menu"></a></p>
+                            </div>
+                            <p class="time">( Thời gian làm việc: 6:00 am - 20:00 pm )</p>
+                        </div>
+                        <!-- end right -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end h_sec -->
+                <div class="mainvisual">
+                    <div class="container">
+                        <h2><img src="./images/mainvisual_tt.png" alt="NHỮNG LỢI ÍCH GIÀNH CHO KHÁCH HÀNG"></h2>
+                        <ul>
+                            <li>Được tư vấn và hỗ trợ <span>nhiệt tình</span> nhất.</li>
+                            <li>Được mua những căn hộ với <span>giá ưu đãi</span> nhất.</li>
+                            <li>Được tư vấn và hỗ trợ nhiệt tình nhất.</li>
+                            <li>Được tư vấn và hỗ trợ nhiệt tình nhất.</li>
+                        </ul>
+                        <p class="btn"><a href="./gioithieu#ab1" class="ov_hover"><img src="./images/mainvisual_btn.png" alt="Xem thêm"></a></p>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end mainvisual -->
+                <div class="h_menu">
+                    <div class="container">
+                        <ul class="clearfix">
+                            <li class="active"><a href="./"><span class="first">Trang chủ</span></a></li>
+                            <li><a href="./gioithieu"><span>Giới thiệu</span></a></li>
+                            <li><a href="./datnen"><span>Đất nền</span></a></li>
+                            <li><a href="./canho"><span>Căn hộ</span></a></li>
+                            <li><a href="./bietthu"><span>Biệt thự</span></a></li>
+                            <li><a href="./nhapho"><span>Nhà phố</span></a></li>
+                            <li><a href="./lienhe"><span>Liên hệ</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end h_menu -->
+            </div>
+            <!-- end header -->
+            <div class="main">
+                <div class="content_page">
+                    <div class="intro_sec">
+                        <div class="container">
+                            <h3><img src="./images/tt1.png" alt="Nơi niềm tin được gửi gắm"></h3>
+                            <div class="clearfix">
+                                <img src="./images/tt1_img.png" alt="Logo QM">
+                                <p>Lời đầu tiên chúng tôi xin chân thành cảm ơn quý khách hàng đã quan tâm và bớt chút thời giang ghé thăm trang web của chúng tôi!</p>
+                                <p>Bạn đang muốn cơ hội đầu tư sinh lợi cao hoặc ngôi nhà thực sự là tổ ấm của bạn:<br>"Nơi mọi người mong đến, nơi các thành viên gia đình bạn luôn mong mỏi tìm về"</p>
+                                <p>Hãy đến với chúng tôi! BatdongsanQM mong muốn kết nối những khách hàng có nhu cầu mua và đầu tư đến với chúng tôi, quý khách hàng hãy yên tâm vì chúng tôi đặt chữ Tâm và Tín làm chữ đi đầu đó là lời cam kết của chúng tôi! Chúng tôi cam kết đem đến cho quý khách hàng những cơ hội đầu tư và danh mục bất động sản uy tín nhất trên thị trường!</p>
+                                <p>Tâm và Tín nâng tâm giá trị!</p>
+                                <p class="tt1_btn"><a href="./gioithieu">Xem thêm &#10095;</a></p>
+                            </div>
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end intro_sec -->
+                    <div class="gray_sec">
+                        <div class="container">
+                            <h3>Đất nền</h3>
+                            <div class="wrap_product clearfix">
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img1.png" alt=""></p>
+                                        <h4>Dự án 1</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img2.png" alt=""></p>
+                                        <h4>Dự án 2</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img3.png" alt=""></p>
+                                        <h4>Dự án 3</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                            </div>
+                            <!-- end wrap_product -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end gray_sec -->
+                    <div class="white_sec">
+                        <div class="container">
+                            <h3>Căn hộ</h3>
+                            <div class="wrap_product clearfix">
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img1.png" alt=""></p>
+                                        <h4>Dự án 1</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img2.png" alt=""></p>
+                                        <h4>Dự án 2</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img3.png" alt=""></p>
+                                        <h4>Dự án 3</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                            </div>
+                            <!-- end wrap_product -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end white_sec -->
+                    <div class="gray_sec">
+                        <div class="container">
+                            <h3>Biệt thự</h3>
+                            <div class="wrap_product clearfix">
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img1.png" alt=""></p>
+                                        <h4>Dự án 1</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img2.png" alt=""></p>
+                                        <h4>Dự án 2</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img3.png" alt=""></p>
+                                        <h4>Dự án 3</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                            </div>
+                            <!-- end wrap_product -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end gray_sec -->
+                    <div class="white_sec">
+                        <div class="container">
+                            <h3>Nhà phố</h3>
+                            <div class="wrap_product clearfix">
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img1.png" alt=""></p>
+                                        <h4>Dự án 1</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img2.png" alt=""></p>
+                                        <h4>Dự án 2</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                                <a href="#"><div class="product_box">
+                                        <p class="product_img"><img src="./images/img3.png" alt=""></p>
+                                        <h4>Dự án 3</h4>
+                                        <p class="product_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                                    </div></a>
+                                <!-- end product_box -->
+                            </div>
+                            <!-- end wrap_product -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end white_sec -->
+                </div>
+                <!-- end content_page -->
+            </div>
+            <!-- end main -->
+            <div id="footer">
+                <p class="page_up">
+                    <a href="#wrapper" class="ov_hover"><img src="./common_img/page_up.png" alt="TOP"></a>
+                </p>
+                <div class="f_menu">
+                    <div class="container">
+                        <ul class="clearfix">
+                            <li><a href="./"><span class="first">Trang chủ</span></a></li>
+                            <li><a href="./gioithieu"><span>Giới thiệu</span></a></li>
+                            <li><a href="./datnen"><span>Đất nền</span></a></li>
+                            <li><a href="./canho"><span>Căn hộ</span></a></li>
+                            <li><a href="./bietthu"><span>Biệt thự</span></a></li>
+                            <li><a href="./nhapho"><span>Nhà phố</span></a></li>
+                            <li><a href="./lienhe"><span>Liên hệ</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end f_menu -->
+                <div class="f_sec">
+                    <div class="container clearfix">
+                        <div class="logo_sec clearfix">
+                            <p class="h_logo"><a href="./" class="ov_hover"><img src="./common_img/h_logo.png" alt="batdongsanqm"></a></p>
+                            <p class="slogan">Tâm và Tín nâng tầm giá trị</p>
+                        </div>
+                        <!-- end logo_sec -->
+                        <div class="right">
+                            <div class="clearfix">
+                                <p class="tel"><a href="tel:091-785-9302"><img src="./common_img/h_tel.png" alt="091-785-9302"></a></p>
+                                <p class="btn"><a href="./lienhe" class="ov_hover"><img src="./common_img/h_btn.png" alt="Liên hệ"></a></p>
+                            </div>
+                            <p class="time">( Thời gian làm việc: 6:00 am - 20:00 pm )</p>
+                        </div>
+                        <!-- end right -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end f_sec -->
+            </div>
+            <!-- end footer -->
+        </div>
+        <!-- end wrapper -->
+        <!-- End tn-wrapper -->
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="./js/common.js"></script>
+    </body>
+</html>

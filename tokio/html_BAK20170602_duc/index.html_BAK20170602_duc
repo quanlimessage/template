@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="片付け・解体.com｜お部屋の片付け、内装解体工事（スケルトン工事）、ハウスクリーニングを行っております。お部屋のお悩み、オフィス移転についてお気軽にご相談ください。">
+<meta name="keywords" content="解体,片付け,内装工事,スケルトン工事,リノベーション,ハウスクリーニング">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="format-detection" content="telephone=no">
+<title>片付け・解体.com｜お部屋の片づけや、物件の解体は解体.comにお任せください。</title>
+<!-- CSS -->
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/top.css" rel="stylesheet" type="text/css">
+<!-- JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!-- jQueryの読み込み -->
+<script>window.jQuery || document.write('<script src="./js/jquery-1.11.0.min.js"><\/script>')</script><!-- 上記CDNダウン時のフォールバック -->
+</head>
+<body>
+<div id="wrapper"><!-- wrapper -->
+  <header id="header">
+  	<div class="pb20 container clearfix">
+      <h1>片付け・解体.com｜お部屋の片づけや、物件の解体は解体.comにお任せください。</h1> 
+      <p class="h_logo"><a href="./"><img src="common_img/logo.png" alt="片付け・内装解体工事のパートナー 片付け・解体.com"></a></p>
+      <ul class="h_right clearfix">
+        <li class="hnav"><a href="./news/">新着情報</a></li>
+        <li class="mr15">
+          <p class="mb10"><img src="common_img/htt_tel.png" alt="ご相談・お見積もり無料"></p>
+          <img src="common_img/tel.png" alt="03-5888-7785">
+        </li>
+        <li>
+          <p class="pt05"><img src="common_img/htt_contact.png" alt="お悩みの方はどなたでもご相談ください"></p>
+          <a href="./contact/"><img src="common_img/hbtn_contact.jpg" alt="メールでも受付中!"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- end header -->
+  <h2 class="main_visual"><img src="images/main_visual.jpg" alt="みんなの片付けパートナー"></h2>
+  <nav id="gnav">
+    <ul class="container clearfix">
+      <li><a href="./"><img src="common_img/gnav01.png" alt="HOME"></a></li>
+      <li><a href="./about/"><img src="common_img/gnav02.png" alt="片付け・解体.comとは"></a></li>
+      <li><a href="./kataduke/"><img src="common_img/gnav03.png" alt="片付け"></a></li>
+      <li><a href="./kaitai/"><img src="common_img/gnav04.png" alt="内装解体工事"></a></li>
+      <li><a href="./cleaning/"><img src="common_img/gnav05.png" alt="ハウスクリーニング"></a></li>
+      <li><a href="./contact/"><img src="common_img/gnav06.png" alt="お問い合わせ"></a></li>
+    </ul>
+  </nav>
+  <div id="main"><!-- main -->
+  	<article>
+      <section class="t_trouble">
+        <div class="container">
+        <h3><img src="images/tt01.png" alt="こんなお悩みありませんか…？"></h3>
+        <ul class="list_bnr clearfix">
+          <li><a href=""><img src="images/bnr01.png" alt="遺品整理や仏壇を供養して処分したい"></a></li>
+          <li><a href=""><img src="images/bnr02.png" alt="引っ越すのに不用品を片付けて欲しい!"></a></li>
+          <li><a href=""><img src="images/bnr03.png" alt="家の物置を解体して欲しい!"></a></li>
+        </ul>
+        <ul class="list_bnr clearfix">
+          <li><a href=""><img src="images/bnr04.png" alt="空き地、庭の雑草、植木を処分して欲しい"></a></li>
+          <li><a href=""><img src="images/bnr05.png" alt="不用品を鑑定（査定）、買い取りできないか…"></a></li>
+          <li><a href=""><img src="images/bnr06.png" alt="家の解体と家財の処分を一緒にお願いできないか…"></a></li>
+        </ul>
+        </div>
+      </section>
+      <section class="t_about">
+        <h3><img src="images/tt02.png" alt="片付け・解体.com"></h3>
+        <div class="t_strong container">
+          <div class="inner">
+            <h4><img src="images/tt_strong.png" alt="当社の3つの強み"></h4>
+            <dl>
+              <dt><img src="images/tt_strong01.png" alt="1 相談がしやすい窓口！"></dt>
+              <dd><span>お客様のご負担・不安を軽減</span>するため、残置物撤去や<br>内装解体工事でも弊社が窓口に立ち、一元管理いたします。</dd>
+              <dt><img src="images/tt_strong02.png" alt="2 遠方の作業も手配可能！"></dt>
+              <dd><span>豊富な協力業者様</span>との連携で、柔軟に対応いたします。</dd>
+              <dt><img src="images/tt_strong03.png" alt="3 ゴミ、不用品も価値あるものと考えています。"></dt>
+              <dd><span>資源再利用</span>のため、<span>お客様の廃棄コスト削減</span>のために<br>単なるゴミと扱わず、丁寧に処理いたします。</dd>
+            </dl>
+            <p class="text_center"><a href="./about/"><img src="images/btn_detail.png" alt="詳しくはこちら"></a></p>
+          </div>
+        </div>
+      </section>
+      <section class="t_service">
+        <h3><img src="images/tt03.png" alt="サービス案内"></h3>
+        <div class="container">
+          <ul class="list_service clearfix">
+            <li><a href="./kataduke/"><img src="images/bnr_service01.png" alt="片付け"><span>不用品処理・残置物撤去・生前整理・遺品整理</span></a></li>
+            <li><a href="./kaitai/"><img src="images/bnr_service02.png" alt="内装解t体工事"><span>スケルトン工事等の内装解体・リノベーション</span></a></li>
+            <li><a href="./cleaning/"><img src="images/bnr_service03.png" alt="ハウスクリーニング"><span>個人宅からオフィスクリーニングまで</span></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="t_info">
+        <div class="container clearfix">
+          <ul class="pull_left">
+            <li class="mb25"><a href=""><img src="common_img/bnr01.jpg" alt="遺品整理が必要な方へ生前のご準備も承ります。"></a></li>
+            <li><a href=""><img src="common_img/bnr02.jpg" alt="運営会社情報"></a></li>
+          </ul>
+          <div class="t_news">
+            <h3><img src="images/tt_news.png" alt="新着情報"><a href="./news/"><img src="images/btn_news.png" alt="一覧"></a></h3>
+            <dl class="list_news">
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">コラム：「作業中に破損物が出たら保証してくれるの？」家財保証サービスについて</a></dd>
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">コラム：「夜逃げされた！残置物の処理どうすればいい？」残置物の処理の際、気をつけなくてはならないこと</a></dd>
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">年末年始休業お知らせ</a></dd>
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">コラム：「作業中に破損物が出たら保証してくれるの？」家財保証サービスについて</a></dd>
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">コラム：「夜逃げされた！残置物の処理どうすればいい？」残置物の処理の際、気をつけなくてはならないこと</a></dd>
+              <dt>2017.00.00</dt>
+              <dd><a href="./news/">年末年始休業お知らせ</a></dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </article>
+  </div>
+  <!-- end main -->
+  <footer id="footer"><!-- footer -->
+   	<div class="page_up"><a href="#wrapper"><img src="common_img/page_up.jpg" alt="Top"></a></div>
+    <div class="container clearfix">
+      <div class="f_left">
+        <a href="./"><img src="common_img/logo.png" alt="片付け・内装解体工事のパートナー 片付け・解体.com"></a>
+        <address>運営会社：株式会社トキオエンバイロメント<br>〒123-0851  東京都足立区梅田 2-13-7-201</address>
+      </div>
+      <div class="f_right">
+        <p><img src="common_img/ftt_contact.png" alt="お部屋の悩み・オフィス移転の悩みなどお気軽にご相談ください"></p>
+        <ul class="clearfix">
+          <li class="tel"><img src="common_img/tel.png" alt=""></li>
+          <li><a href="./contact/"><img src="common_img/fbtn_contact.png" alt="メールでも受付中! 無料！"></a></li>
+        </ul>
+      </div>
+    </div>
+    <nav id="fnav">
+      <div class="container clearfix">
+        <ul>
+          <li><a href="./">ホーム</a></li>
+        </ul>
+        <ul>
+          <li><a href="./about/">片付け・解体.comとは</a></li>
+          <li><a href="./kataduke/">片付け</a></li>
+        </ul>
+        <ul>
+          <li><a href="./news/">新着情報</a></li>
+          <li><a href="./kaitai/">内装解体工事</a></li>
+        </ul>
+        <ul>
+          <li><a href="./contact/">お問い合わせ</a></li>
+          <li><a href="./cleaning/">ハウスクリーニング</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <!-- end footer -->
+</div>
+<!-- end wrapper --> 
+<!-- End tn-wrapper --> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

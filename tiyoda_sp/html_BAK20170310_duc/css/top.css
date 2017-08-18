@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.main_visual { position: relative; margin: 0 -2% 20px; }
+.main_visual h2 { position: absolute; left: 2%; top: 5%; }
+
+.cnt01 { background: url(../images/bg01.png); background-size: 32px 32px; margin: 0 -2% 20px; padding: 20px 2%; text-align: center; }
+.cnt01 p { margin: 10px 0; }
+
+.cnt02 { text-align: center; margin-bottom: 20px; position: relative; }
+.cnt02 a:after { content:""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+
+.cnt03 h3 { text-align: center; background: #1f7bfe; padding: 10px; position: relative; margin-bottom: 10px; }
+.cnt03 h3:before { content: ""; height: 1px; background: #fff; left: 0; top: 2px; right: 0; position: absolute; }
+.cnt03 h3 a { position: absolute; top: 8px; right: 2%; }
+.news_list { padding: 10px; background: #f8f8f8; }
+.news_list dt { color: #004cb7; }
+.news_list dd { padding: 2px 0 6px; border-bottom: 1px dotted #ccc; margin-bottom: 5px; }
+.news_list dd a { text-decoration: none; }

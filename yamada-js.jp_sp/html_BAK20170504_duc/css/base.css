@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* 
+====================================================================================================
+■ basic setting
+ □ tag
+ □ class
+■ additional
+■ layout
+ □ #site_header
+ □ main
+ □ #sub_area
+ □ #site_footer
+----------------------------------------------------------------------------------------------------
+※ 基本的にテンプレとしての簡易な整形レベルです。必ずサイトに合わせて各種設定を見直すこと。 
+※ font-sizeに関しては、リセット後、#wrapperに18px相当で指定済。そこからの相対指定で行うこと。
+　（親要素に既に%指定済の場合、子孫要素は基準が変わるので注意してください。）
+※ サイト制作後、不要と思われるコメントはなるべく削除し整理すること。
+==================================================================================================== */
+/* 
+====================================================================================================
+■ basic setting
+----------------------------------------------------------------------------------------------------
+ □ tag
+---------------------------------------------------------------------------------------------------- */
+html { /* 画面外背景色 */ font-family:"Meiryo", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+body { position: relative; margin: 0 auto; color: #333333; word-wrap: break-word; word-break: break-word; }
+p, li, pre, td, th, dt, dd, h3, h4, h5 { line-height:1.5; }  /* 基本の行の高さ */
+address { font-style: normal; }
+/* 
+----------------------------------------------------------------------------------------------------
+ □ class
+---------------------------------------------------------------------------------------------------- */
+/* 
+--------------------------------------------------
+ ▽ 文字装飾定義専用クラス
+-------------------------------------------------- */
+/* 主に新着情報への使用想定だが、通常コンテンツ内で使用も可 */
+.text_left { text-align:left!important; }
+.text_right { text-align:right!important;}
+.text_center { text-align:center!important; }
+.text_justify { text-align:justify!important; }
+.text_nowrap { white-space:nowrap!important; }
+.text_lowercase { text-transform:lowercase!important; }
+.text_uppercase { text-transform:uppercase!important; }
+.text_capitalize { text-transform:capitalize!important; }
+.text_muted { color:#777!important; }
+.text_normal { font-weight:normal !important; }
+.text_bold { font-weight:bold!important; }
+.text_red { color:#E75942!important; }
+.text_black { color:#000000!important; }
+.text_grey { color:#999999!important; }
+.text_pink { color:#f66b82!important; }
+.text_green { color:#62b040!important; }
+.text_blue { color:#00a2c6!important; } /* このブルーはリンク色のブルーとは色味を若干変える事を推奨 */
+.text_yellow { color:#feab0f!important; }
+.text_white { color:#F0F0F0!important; }
+.text_purple { color:#b992ed!important; }
+.text_orange{ color:#f29475!important; }
+.inline_block{ display: inline-block !important; }
+/* ページトップへのリンク */
+.page_up { text-align: right; margin: 20px 10px 0; }
+.page_up a { color: #333333; }
+/* 
+--------------------------------------------------
+ ▽ font-size設定専用クラス
+-------------------------------------------------- */
+/* デフォルトでは#wrapperに18px相当の指定が設定済みのため、そこからの相対値になります。
+※親要素に既に%指定済みの場合は子孫要素は基準が変わるのでこのクラスの使用は出来れば避けます。 */
+.f10 { font-size: 71.5% !important; } /* 10px */
+.f11 { font-size: 78.6% !important; } /* 11px */
+.f12 { font-size: 85.8% !important; } /* 12px */
+.f13 { font-size: 92.9% !important; } /* 13px */
+.f14 { font-size: 72.3% !important; } /* 14px */
+.f15 { font-size: 107.2% !important; } /* 15px */
+.f16 { font-size: 114.3% !important; } /* 16px */
+.f17 { font-size: 121.5% !important; } /* 17px */
+.f18 { font-size:128.6% !important; } /* 18px */
+.f19 { font-size:135.8% !important; } /* 19px */
+.f20 { font-size:142.9% !important; } /* 20px */
+.f21 { font-size:150.0% !important; } /* 21px */
+.f22 { font-size:157.2% !important; } /* 22px */
+.f23 { font-size:164.3%  !important; } /* 23px */
+.f24 { font-size:171.5% !important; } /* 24px */
+.f25 { font-size:178.6% !important; } /* 25px */ 
+/* 
+--------------------------------------------------
+ ▽ margin設定専用クラス
+-------------------------------------------------- */
+.m00 { margin: 0px !important; }
+.m05 { margin: 5px !important; }
+.m10 { margin:10px !important; }
+.m15 { margin:15px !important; }
+.m20 { margin:20px !important; }
+.m25 { margin:25px !important; }
+.m30 { margin:30px !important; }
+.m35 { margin:35px !important; }
+.m40 { margin:40px !important; }
+.m45 { margin:45px !important; }
+.mt00 { margin-top: 0px !important; }
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top:10px !important; }
+.mt15 { margin-top:15px !important; }
+.mt20 { margin-top:20px !important; }
+.mt25 { margin-top:25px !important; }
+.mt30 { margin-top:30px !important; }
+.mt35 { margin-top:35px !important; }
+.mt40 { margin-top:40px !important; }
+.mt45 { margin-top:45px !important; }
+.mr00 { margin-right: 0px !important; }
+.mr05 { margin-right: 5px !important; }
+.mr10 { margin-right:10px !important; }
+.mr15 { margin-right:15px !important; }
+.mr20 { margin-right:20px !important; }
+.mr25 { margin-right:25px !important; }
+.mr30 { margin-right:30px !important; }
+.mr35 { margin-right:35px !important; }
+.mr40 { margin-right:40px !important; }
+.mr45 { margin-right:45px !important; }
+.mb00 { margin-bottom: 0px !important; }
+.mb05 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom:10px !important; }
+.mb15 { margin-bottom:15px !important; }
+.mb20 { margin-bottom:20px !important; }
+.mb25 { margin-bottom:25px !important; }
+.mb30 { margin-bottom:30px !important; }
+.mb35 { margin-bottom:35px !important; }
+.mb40 { margin-bottom:40px !important; }
+.mb45 { margin-bottom:45px !important; }
+.mb50 { margin-bottom:50px !important; }
+.ml00 { margin-left: 0px !important; }
+.ml05 { margin-left: 5px !important; }
+.ml10 { margin-left:10px !important; }
+.ml15 { margin-left:15px !important; }
+.ml20 { margin-left:20px !important; }
+.ml25 { margin-left:25px !important; }
+.ml30 { margin-left:30px !important; }
+.ml35 { margin-left:35px !important; }
+.ml40 { margin-left:40px !important; }
+.ml45 { margin-left:45px !important; }
+.ml50 { margin-left:50px !important; }
+/* 
+--------------------------------------------------
+ ▽ padding設定専用クラス
+-------------------------------------------------- */
+.p00 { padding: 0px !important; }
+.p05 { padding: 5px !important; }
+.p10 { padding:10px !important; }
+.p15 { padding:15px !important; }
+.p20 { padding:20px !important; }
+.p25 { padding:25px !important; }
+.p30 { padding:30px !important; }
+.p35 { padding:35px !important; }
+.p40 { padding:40px !important; }
+.p45 { padding:45px !important; }
+.pt00 { padding-top: 0px !important; }
+.pt05 { padding-top: 5px !important; }
+.pt10 { padding-top:10px !important; }
+.pt15 { padding-top:15px !important; }
+.pt20 { padding-top:20px !important; }
+.pt25 { padding-top:25px !important; }
+.pt30 { padding-top:30px !important; }
+.pt35 { padding-top:35px !important; }
+.pt40 { padding-top:40px !important; }
+.pt45 { padding-top:45px !important; }
+.pr00 { padding-right: 0px !important; }
+.pr05 { padding-right: 5px !important; }
+.pr10 { padding-right:10px !important; }
+.pr15 { padding-right:15px !important; }
+.pr20 { padding-right:20px !important; }
+.pr25 { padding-right:25px !important; }
+.pr30 { padding-right:30px !important; }
+.pr35 { padding-right:35px !important; }
+.pr40 { padding-right:40px !important; }
+.pr45 { padding-right:45px !important; }
+.pb00 { padding-bottom: 0px !important; }
+.pb05 { padding-bottom: 5px !important; }
+.pb10 { padding-bottom:10px !important; }
+.pb15 { padding-bottom:15px !important; }
+.pb20 { padding-bottom:20px !important; }
+.pb25 { padding-bottom:25px !important; }
+.pb30 { padding-bottom:30px !important; }
+.pb35 { padding-bottom:35px !important; }
+.pb40 { padding-bottom:40px !important; }
+.pb45 { padding-bottom:45px !important; }
+.pl00 { padding-left: 0px !important; }
+.pl05 { padding-left: 5px !important; }
+.pl10 { padding-left:10px !important; }
+.pl15 { padding-left:15px !important; }
+.pl20 { padding-left:20px !important; }
+.pl25 { padding-left:25px !important; }
+.pl30 { padding-left:30px !important; }
+.pl35 { padding-left:35px !important; }
+.pl40 { padding-left:40px !important; }
+.pl45 { padding-left:45px !important; }
+/* 
+--------------------------------------------------
+ ▽ radious（角丸）設定専用クラス
+-------------------------------------------------- */
+.r03 { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.r04 { -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.r05 { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.r06 { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+.r07 { -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; }
+.r08 { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+.r09 { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; }
+.r10 { -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; }
+.r11 { -webkit-border-radius:11px; -moz-border-radius:11px; border-radius:11px; }
+.r12 { -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; }
+.r13 { -webkit-border-radius:13px; -moz-border-radius:13px; border-radius:13px; }
+.r14 { -webkit-border-radius:14px; -moz-border-radius:14px; border-radius:14px; }
+.r15 { -webkit-border-radius:15px; -moz-border-radius:15px; border-radius:15px; }
+.r16 { -webkit-border-radius:16px; -moz-border-radius:16px; border-radius:16px; }
+.r17 { -webkit-border-radius:17px; -moz-border-radius:17px; border-radius:17px; }
+.r18 { -webkit-border-radius:18px; -moz-border-radius:18px; border-radius:18px; }
+.r19 { -webkit-border-radius:19px; -moz-border-radius:19px; border-radius:19px; }
+.r20 { -webkit-border-radius:20px; -moz-border-radius:20px; border-radius:20px; }
+/* 
+--------------------------------------------------
+ ▽ width
+-------------------------------------------------- */
+.w10 { width: 10% !important; }
+.w20 { width: 20% !important; }
+.w30 { width: 30% !important; }
+.w40 { width: 40% !important; }
+.w45 { width: 45% !important; }
+.w50 { width: 50% !important; }
+.w60 { width: 60% !important; }
+.w70 { width: 70% !important; }
+.w80 { width: 80% !important; }
+.w90 { width: 90% !important; }
+.w100 { width: 100% !important; }
+/* 
+--------------------------------------------------
+ ▽ 1カラムコンテンツ
+-------------------------------------------------- */
+.col01 { }
+.col01 figure { margin:0 auto 10px; }
+/* 
+--------------------------------------------------
+ ▽ 左右均等2カラムコンテンツ
+-------------------------------------------------- */
+.col02:after { display:block; clear:both; content:""; }
+.col02 .float_l, .col02 .float_r { width:50%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }
+.col02 .float_l { padding-right:1%; /* ここで余白設定 */ }
+.col02 .float_r { padding-left:1%; /* ここで余白設定 */ }
+/* 
+--------------------------------------------------
+ ▽ 2カラムコンテンツ(ul liの場合)
+-------------------------------------------------- */
+/* 左右2カラムデザイン（※ulに.col02を追加する事で切り替え） */
+.col02>li { width:50%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px; }
+/* 左カラム */
+.col02>li:nth-of-type(2n-1) {
+ padding-right:1%;/* ここで余白設定 */
+ float:left;
+ clear:both;
+}
+/* 右カラム */
+.col02>li:nth-of-type(2n) {
+ padding-left:1%;/* ここで余白設定 */
+ float:right;
+}
+.col02 figure { margin-bottom:10px; }
+/* 
+--------------------------------------------------
+ ▽ 3カラムコンテンツ(ul liの場合)
+-------------------------------------------------- */
+/* 3カラムデザイン（※ulに.col03を追加する事で切り替え） */
+.col03:after { display:block; clear:both; content:""; }
+.col03>li { width:32%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px; float:left }
+/* 右(1)カラム */
+.col03>li:nth-of-type(3n-2) {
+ clear:both;
+}
+/* 左(3)カラム */
+.col03>li:nth-of-type(3n) { }
+/* 中央(2)カラム */
+.col03>li:nth-of-type(3n-1) {
+ margin-left:2%;
+ margin-right:2%;/* ここで余白設定(余白を指定した場合は.col03>liのwidthを変更) */
+}
+/* 
+--------------------------------------------------
+ ▽ 新着などのページネーション
+-------------------------------------------------- */
+.pagination { padding:0 2%; }
+/* 前へ */
+.pagination .page_prev { float:left; }
+/* 次へ */
+.pagination .page_next { float:right; }
+/* 戻る */
+.pagination .page_back { text-align:center; }
+/*
+====================================================================================================
+■ additional
+---------------------------------------------------------------------------------------------------- */
+.acco_box { clear:both; margin-bottom:10px; }
+.acco_dv { display:none; }
+.acco_a { cursor:pointer; }
+.media_txt .txt { }
+.media_txt .img { width: 40%; }
+.media_txt .img img { width:100%; height:auto }
+.pic_l .image { float:left; margin: 3px 10px 5px 0; }
+.pic_r .image { float:right; margin: 3px 0 5px 10px; }
+.document p,.pic_r p, .pic_l p { margin-bottom: 10px; }
+/*Less and More*/
+.box_maxheight { line-height: 1.5 }
+.box_maxheight .maxheight_hide{ display:none; }
+.box_maxheight .maxheight_btn { text-decoration:underline; cursor:pointer; color:#0091b2; display: inline-block; }
+/*
+====================================================================================================
+■ layout
+---------------------------------------------------------------------------------------------------- */
+#wrapper { width: 100%; /* サイトの実際の横幅（640px以下は画面サイズによって変動） */ max-width:480px; margin: 0 auto; background-color: #FFF; overflow:hidden; position: relative; }
+/* 
+----------------------------------------------------------------------------------------------------
+ □ #site_header
+---------------------------------------------------------------------------------------------------- */
+.sg_header { display: table; padding: 10px 2%; width: 100%; position: relative; }
+.h_logo { display: table-cell; width: 70%; vertical-align: middle; }
+.h_right { display: table-cell; width: 30%; vertical-align: middle; }
+.h_right li { float: left; width: 40%; margin-left: 10%; }
+.btn_gnav { display: block; position: relative; }
+.btn_gnav.opened:before { content: ""; background: url(../common_img/h_close.png) no-repeat; background-size: 100% auto; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+/* 
+--------------------------------------------------
+ ▽ #gnav （グローバルナビゲーション）
+-------------------------------------------------- */
+#gnav { background: #62b040; position: absolute; right: 0; left: 0; top: 95%; display: none; font-family : YuGothic, '游ゴシック', sans-serif; padding: 10px; z-index: 99; }
+#gnav a { display: block; padding: 10px 5px; border-bottom: 1px dotted #fff; color: #fff; font-weight: bold; text-decoration: none; }
+#gnav li:last-child a { border-bottom: none; }
+/* 
+----------------------------------------------------------------------------------------------------
+  □ main
+---------------------------------------------------------------------------------------------------- */
+.sg_main { padding: 0 2%; }
+
+/* 
+----------------------------------------------------------------------------------------------------
+  □ #sub_area
+---------------------------------------------------------------------------------------------------- */
+
+/* 
+----------------------------------------------------------------------------------------------------
+ □ #site_footer
+---------------------------------------------------------------------------------------------------- */
+.sg_footer .page_up { margin: 30px 2% 0; }
+.sg_footer .f_main { background: #f8f8f1; text-align: center; padding: 20px 2% 15px; margin-top: 10px; }
+.sg_footer .f_tel { margin: 15px 0 0; }
+.sg_footer .f_tel a { background: url(../common_img/ico_tel.png) left center no-repeat; background-size: 30px auto; padding-left: 40px; font-family : YuGothic, '游ゴシック', sans-serif; font-size: 27px; font-weight: bold; text-decoration: none; color: #000; display: inline-block; padding-top: 5px; }
+.sg_footer .f_fax {  font-family : YuGothic, '游ゴシック', sans-serif; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+.sg_footer .f_fax span { color: #ffbd3f; font-size: 16px; }
+.sg_footer address { display: inline-block; text-align: left; }
+.sg_footer .fnav { text-align: left; margin-top: 10px; }
+.sg_footer .fnav > ul { float: left; width: 50%; }
+.sg_footer .fnav a { text-decoration: none; color: #000; }
+.sg_footer .fnav > ul ul li { background: url(../common_img/arrow02.png) left 5px no-repeat; background-size: 7px auto; padding-left: 15px; }
+.sg_footer .fnav li { margin-top: 10px; }
+.sg_footer .f_end { background: #62b040; text-align: center; padding: 5px; }
+.sg_footer .f_end a { color: #fff; text-decoration: none; }
+.sg_footer .f_end a span { text-decoration: underline; }
